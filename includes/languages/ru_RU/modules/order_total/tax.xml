@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_tax_title</key>
+      <value><![CDATA[Налог]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_tax_description</key>
+      <value><![CDATA[Налог в заказе]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_tax_admin_1</key>
+      <value><![CDATA[Отображать налог]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_tax_admin_2</key>
+      <value><![CDATA[Сортировать в заказе]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_tax_admin_3</key>
+      <value><![CDATA[Вы хотите отображать налог в заказе?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_tax_admin_4</key>
+      <value><![CDATA[Сортировка при отображении в заказе.]]></value>
+      <group>modules-order_total</group>
+    </definition>		
+  </definitions>
+</language>

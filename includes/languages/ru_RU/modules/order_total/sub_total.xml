@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_subtotal_title</key>
+      <value><![CDATA[Стоимость]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_description</key>
+      <value><![CDATA[Стоимость заказа]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_admin_1</key>
+      <value><![CDATA[Отображать стоимость]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_admin_2</key>
+      <value><![CDATA[Сортировать в заказе]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_admin_3</key>
+      <value><![CDATA[Вы хотите отображать стоимость?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_admin_4</key>
+      <value><![CDATA[Сортировка при отображении в заказе.]]></value>
+      <group>modules-order_total</group>
+    </definition>	
+  </definitions>
+</language>

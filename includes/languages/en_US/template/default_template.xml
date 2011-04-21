@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_template_info</key>
+      <value><![CDATA[( Plus shipping)]]></value>
+      <group>general</group>
+    </definition>
+	<definition>
+      <key>recently_visited_template_info</key>
+      <value><![CDATA[results]]></value>
+      <group>general</group>
+    </definition>
+	</definitions>
+</language>

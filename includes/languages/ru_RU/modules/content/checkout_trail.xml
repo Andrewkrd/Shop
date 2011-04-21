@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>box_ordering_steps_heading</key>
+      <value><![CDATA[Шаги заказа]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>box_ordering_steps_delivery</key>
+      <value><![CDATA[Доставка]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>box_ordering_steps_payment</key>
+      <value><![CDATA[Оплата]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>box_ordering_steps_confirmation</key>
+      <value><![CDATA[Подтверждение]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>box_ordering_steps_complete</key>
+      <value><![CDATA[Финиш!]]></value>
+      <group>modules-content</group>
+    </definition>
+  </definitions>
+</language>

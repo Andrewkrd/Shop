@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_cod_title</key>
+      <value><![CDATA[Оплата наличными при получении]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_description</key>
+      <value><![CDATA[Оплата наличными при получении]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_method_title</key>
+      <value><![CDATA[Оплата наличными при получении]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_1</key>
+      <value><![CDATA[Включить оплату наличными при получении]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_2</key>
+      <value><![CDATA[Платежные зоны]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_3</key>
+      <value><![CDATA[Сортировать в списке]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_4</key>
+      <value><![CDATA[Установить статус заказа]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_5</key>
+      <value><![CDATA[Вы хотите использовать оплату наличными при получении?]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_6</key>
+      <value><![CDATA[Если выбрана зона, то этот вид оплаты будет включен только для этой зоны.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_7</key>
+      <value><![CDATA[Сортировать в списке модулей оплаты при проведении заказа.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_8</key>
+      <value><![CDATA[Установите статус заказов, оплаченных этим методом оплаты, выбрав из следующих значений:]]></value>
+      <group>modules-payment</group>
+    </definition>	
+  </definitions>
+</language>

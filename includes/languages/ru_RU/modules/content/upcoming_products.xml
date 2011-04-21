@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>upcoming_products_title</key>
+      <value><![CDATA[Ожидаемые поступления товаров]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>upcoming_products_title_2</key>
+      <value><![CDATA[Дата ожидаемого поступления]]></value>
+      <group>modules-content</group>
+    </definition>	
+  </definitions>
+</language>

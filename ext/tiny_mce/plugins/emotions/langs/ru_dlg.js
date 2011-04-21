@@ -1,0 +1,20 @@
+﻿tinyMCE.addI18n('ru.emotions_dlg',{
+title:"Вставить смайлик",
+desc:"Смайлики",
+cool:"Суперрр",
+cry:"Ой-ой-ой",
+embarassed:"Ужасно стыдно",
+foot_in_mouth:"Обескуражен",
+frown:"Недоволен",
+innocent:"Невинный",
+kiss:"Целую",
+laughing:"Смешно",
+money_mouth:"Денег хочу!",
+sealed:"Молчу-молчу!",
+smile:"Улыбаюсь",
+surprised:"Удивлен",
+tongue_out:"Показать язык",
+undecided:"В нерешительности",
+wink:"Подмигиваю",
+yell:"Рву и мечу!"
+});

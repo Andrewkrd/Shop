@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/* CSS Document
+
+    Copyright (c) Freeoscommerce.com 2009
+
+	This file is part of a freeoscommerce.com template.  Please visit http://www.freeoscommerce.com for licensing and other information.
+*/
+
+html {
+height: 100%;
+} 
+body {
+height: 100%;
+background: #58a9d7;
+margin: 0px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px; 
+color: #000000;
+}
+
+#wrapper1 {
+z-index: 0; 
+position: relative; 
+width: 100%; 
+background: #ffffff;
+}
+#background_top {
+z-index: 1; 
+position: absolute; 
+width: 100%; 
+top: 0px; 
+left: 0px; 
+height: 644px; 
+background: url(images/background.jpg) top center repeat-x;
+}
+#wrapper2 {
+z-index: 2; 
+position: relative; 
+width: 1003px; 
+top: 0px; 
+left: 50%; 
+margin-left: -501px;
+}
+#wrapper3 {
+z-index: 1; 
+position: relative; 
+width: 927px; 
+left: 38px; 
+top: 0px; 
+background: #ffffff;
+}
+#top_menu {
+position: relative; 
+width: 927px; 
+height: 126px; 
+top: 0px; 
+left: 0px; 
+background: url(images/top_menu.jpg) top center;
+}
+#top_menu_links {
+position: absolute; 
+width: 747px; 
+left: 180px;
+margin-top: 203px; 
+text-align: center; 
+color: #0b4995;
+}
+#content_wrapper {
+position: relative; 
+overflow: auto; 
+margin-top: 117px; 
+background: url(images/box_middle.jpg) 272px 0px repeat-y;
+}
+#side_menu {
+position: relative; 
+float: left; 
+width: 200px; 
+padding-left: 36px; 
+padding-right: 36px; 
+padding-bottom: 25px; 
+padding-top: 65px;
+}
+#content_wrapper2 {
+z-index: 4;
+position: relative; 
+float: left; 
+width: 641px; 
+min-height: 350px;
+}
+#content {
+z-index: 5; 
+position: relative; 
+width: 550px; 
+margin: 45px; 
+margin-bottom: 0px;
+}
+#content_box_top {
+position: absolute; 
+width: 641px; 
+height: 330px; 
+top: 0px; 
+background: url(images/box_top.jpg) top center no-repeat;
+}
+#main_image {
+z-index: -1; 
+position: absolute; 
+width: 927px; 
+height: 188px; 
+top: 126px; 
+left: 0px; 
+background: url(images/main_image.jpg) top center;
+}
+#website_name {
+position: absolute; 
+width: 500px; 
+top: 50px; 
+right: 40px; 
+text-align: right; 
+font-size: 25px; 
+color: #58a9d7;
+}
+#left_shadow {
+position: absolute; 
+width: 38px; 
+height: 624px; 
+left: 0px; 
+top: 0px; 
+background: url(images/left_shadow.jpg) top center;
+}
+#right_shadow {
+position: absolute; 
+width: 38px; 
+height: 624px; 
+right: 0px; 
+top: 0px; 
+background: url(images/right_shadow.jpg) top center;
+}
+#bottom_stripe {
+position: relative; 
+width: 100%; 
+height: 88px; 
+top: 0px; 
+background: url(images/bottom_stripe.jpg) top center repeat-x;
+}
+#content_box_bottom_wrapper {
+z-index: 1; 
+position: relative; 
+width: 1003px; 
+top: 0px; 
+left: 50%; 
+margin-left: -501px;
+}
+#content_box_bottom {
+z-index: 2; 
+position: relative; 
+width: 641px; 
+height: 58px; 
+left: 310px; 
+background: url(images/box_bottom.jpg);
+}
+#footer {
+z-index: 6;
+position: relative; 
+width: 850px; 
+left: 50%;
+top: -55px;
+margin-left: -425px;
+text-align: center; 
+color: #ffffff;
+}
+
+a:link {
+	color: #4a83d1;
+	text-decoration: none;
+}
+a:visited {
+	color: #4a83d1;
+	text-decoration: none;
+}
+a:hover {
+	color: #0033CC;
+	text-decoration: none;
+}
+a:active {
+	color: #4a83d1;
+	text-decoration: none;
+}
+
+#top_menu_links span {
+margin-left: 12px;
+margin-right: 12px;
+}
+
+/* Hide icons in page headings */
+#pageIcon, td.pageHeading img {
+display: none;
+}
+
+hr.accessibility {
+height: 1px;
+color: #000000;
+}
+
+h1 {
+font-size: 14px;
+font-weight: bold;
+}
+h2 {
+font-size: 13px;
+font-weight: bold;
+}
+h3 {
+font-size: 12px;
+font-weight: bold;
+}
+h4 {
+font-size: 12px;
+}
+h5 {
+font-size: 12px;
+}
+h6 {
+font-size: 12px;
+}
+
+div.boxTitle {
+padding-top: 0px; 
+padding-bottom: 10px;
+font-size: 12px;
+font-weight: bold;
+}
+
+div.boxContents {
+padding-bottom: 10px;
+}
+
+div.boxContents form {
+padding: 0px;
+margin: 0px;
+}

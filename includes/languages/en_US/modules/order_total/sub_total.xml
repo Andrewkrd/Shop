@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_subtotal_title</key>
+      <value><![CDATA[Sub-Total]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_description</key>
+      <value><![CDATA[Order Sub-Total]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_admin_1</key>
+      <value><![CDATA[Display Sub-Total]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_admin_2</key>
+      <value><![CDATA[Sort Order]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_admin_3</key>
+      <value><![CDATA[Do you want to display the order sub-total cost?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_subtotal_admin_4</key>
+      <value><![CDATA[Sort order of display.]]></value>
+      <group>modules-order_total</group>
+    </definition>	
+  </definitions>
+</language>

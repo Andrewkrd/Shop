@@ -1,0 +1,357 @@
+/*
+$Id$
+
+osCommerce, Open Source E-Commerce Solutions
+http://www.oscommerce.com
+
+Copyright (c) 2009 osCommerce
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License v2 (1991)
+as published by the Free Software Foundation.
+
+page contents*/
+.pageContents
+{
+	padding: 10px;
+}
+/*links*/
+A:link
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #333;
+	font-weight: normal;
+	text-decoration: none;
+}
+A:visited
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #333;
+	font-weight: normal;
+	text-decoration: none;
+}
+A:active
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #333;
+	font-weight: normal;
+	text-decoration: none;
+}
+A:hover
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #333;
+	font-weight: normal;
+	text-decoration: underline;
+}
+/*page*/
+BODY
+{
+	background: url(images/header.png) repeat-x;
+	background-color: #FFFFFF;
+	color: #000000;
+	margin: 0px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+}
+TD, P
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+}
+H1, H1 A:link, H1 A:visited, H1 A:active, .pageHeading
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+/*data table*/
+.dataTable
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+}
+.dataTable THEAD TH
+{
+	padding: 3px 10px;
+	border-bottom: 1px solid #333;
+	font-weight: bold;
+}
+.dataTable TFOOT TH
+{
+	padding: 3px 10px;
+	border-top: 1px solid #333;
+	font-weight: bold;
+}
+.dataTable TBODY TD
+{
+	background-color: #DEEDF7;
+	padding: 3px 10px;
+}
+.dataTable TR.mouseOver TD, .dataTable TR.mouseOverDeactivatedRow TD
+{
+	background-color: #b9dcff;
+}
+.dataTable TR.deactivatedRow TD
+{
+	background-color: #FFC0A9;
+}
+/*batch pageset*/
+#batchTotalPages
+{
+	float: left;
+}
+#batchPageLinks
+{
+	float: right;
+}
+#batchPullDownMenu
+{
+	float: right;
+}
+#dataTableLegend
+{
+	float: left;
+	color: #999;
+}
+#dataTableLegend IMG
+{
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+/*info box*/
+.infoBoxHeading
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #1D65A4;
+	padding: 2px;
+}
+.infoBoxContent
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #333;
+	background-color: #F5F5F5;
+	padding: 2px;
+}
+/*forms
+CHECKBOX, INPUT, RADIO, SELECT, TEXTAREA, FILE*/
+#INVALID-RULE
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+}
+FORM
+{
+	display: inline;
+	margin: 0;
+}
+LABEL
+{
+	display: block;
+	cursor: pointer;
+	font-weight: bold;
+}
+FIELDSET
+{
+	border: 0px solid #333;
+}
+FORM.dataForm DIV
+{
+	margin: 0.5em 0;
+}
+FORM.dataForm INPUT[type=text], FORM.dataForm INPUT[type=password], FORM.dataForm TEXTAREA
+{
+	display: block;
+	padding: 0.3em;
+	width: 58.5%;
+}
+FORM.dataForm SELECT
+{
+	display: block;
+	padding: 0.3em 2px 0.3em 1px;
+	width: 60%;
+}
+FORM.dataForm SELECT OPTGROUP
+{
+	font-style: normal;
+	font-weight: bold;
+}
+FORM.dataForm FIELDSET LEGEND
+{
+	padding: 3px 10px;
+	border-bottom: 1px solid #333;
+	font-weight: bold;
+	width: 80%;
+}
+.searchField
+{
+	border: 1px solid #BFBFBF;
+	background: url(images/icons/16x16/search.png) no-repeat 3px 3px;
+	padding-left: 22px;
+	height: 20px;
+	width: 150px;
+}
+.fieldDefaultText
+{
+	color: #A1A1A1;
+	font-style: italic;
+}
+/*attributes*/
+.attributes-odd
+{
+	background-color: #F4F7FD;
+}
+.attributes-even
+{
+	background-color: #FFFFFF;
+}
+/*miscellaneous*/
+.specialPrice
+{
+	color: #FF0000;
+}
+.oldPrice
+{
+	text-decoration: line-through;
+}
+.fieldRequired
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+}
+.highlight
+{
+	border: 1px solid #03539A;
+	background-color: #B9DCFF;
+	padding: 2px;
+}
+/*powered by button*/
+.poweredByButton
+{
+	border: 1px solid #03539A;
+	padding: 1px;
+	margin: 1px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 8px;
+	text-transform: uppercase;
+	background: #03539A;
+}
+.poweredByButton .poweredBy
+{
+	color: #333;
+	background: #FFFFFF;
+	padding: 1px 5px;
+	font-size: 8px;
+}
+.poweredByButton .osCommerce
+{
+	color: #FFFFFF;
+	padding: 1px 5px;
+	font-size: 8px;
+}
+/*infoBox button*/
+.infoBoxButton
+{
+	margin: 1px;
+	background-color: #529214;
+	border-color: #B0D58B #47652A #47652A #B0D58B;
+	border-width: 1px;
+	border-style: solid;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	line-height: 130%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFF;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+.operationButton
+{
+	margin: 1px;
+	background-color: #03539A;
+	border-color: #98ACD4 #1A3E8B #1A3E8B #98ACD4;
+	border-width: 1px;
+	border-style: solid;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	line-height: 130%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFF;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+.sectionButton
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 2px;
+	margin: 1px;
+	border: 1px solid #333;
+	background-color: #AD3A23;
+}
+/*message stack output*/
+.messageStack
+{
+	margin: 5px;
+	font-size: 10px;
+	color: #465584;
+	background-color: #C4F293;
+	border-width: 1px;
+	border-style: dotted;
+}
+.modulesListing
+{
+	width: 59%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border-top: 1px dashed #BF6428;
+	border-left: 1px dashed #BF6428;
+	border-right: 1px dashed #BF6428;
+}
+.modulesListing LI
+{
+	padding: 5px;
+	background-color: #FFE4C7;
+	border-bottom: 1px dashed #BF6428;
+}
+#infoPane
+{
+	background-color: #DEEDF7;
+}
+#infoPane UL
+{
+	padding-left: 25px;
+}
+/*
+.standardBoxButton {
+margin: 1px;
+background-color: #f5f5f5;
+border: 1px solid #dedede;
+border-top: 1px solid #eee;
+border-left: 1px solid #eee;
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+line-height: 130%;
+text-decoration: none;
+font-weight: bold;
+color: #565656;
+cursor: pointer;
+padding: 5px;
+}
+*/

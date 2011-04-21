@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>cms_sitemap_title</key>
+      <value><![CDATA[Articles]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>cms_sitemap_title1</key>
+      <value><![CDATA[List Articles with topics]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>cms_sitemap_title2</key>
+      <value><![CDATA[Display articles in topics?]]></value>
+      <group>modules-content</group>
+    </definition>	
+  </definitions>
+</language>

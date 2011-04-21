@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_shipping_title</key>
+      <value><![CDATA[Доставка]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_shipping_description</key>
+      <value><![CDATA[Стоимость доставки в заказе]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_shipping_admin_1</key>
+      <value><![CDATA[Отображать доставку]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_shipping_admin_2</key>
+      <value><![CDATA[Сортировать в заказе]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_shipping_admin_3</key>
+      <value><![CDATA[Вы хотите отображать стоимость доставки в заказе?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_shipping_admin_4</key>
+      <value><![CDATA[Сортировка при отображении в заказе.]]></value>
+      <group>modules-order_total</group>
+    </definition>		
+  </definitions>
+</language>

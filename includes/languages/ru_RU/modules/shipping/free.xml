@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_free_title</key>
+      <value><![CDATA[Бесплатная доставка]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_description</key>
+      <value><![CDATA[Бесплатная доставка]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_for_amount</key>
+      <value><![CDATA[для заказов от %s]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_1</key>
+      <value><![CDATA[Включить бесплатную доставку]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_2</key>
+      <value><![CDATA[Стоимость доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_3</key>
+      <value><![CDATA[Зоны доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_free_admin_4</key>
+      <value><![CDATA[Вы хотите использовать бесплатную доставку?]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_5</key>
+      <value><![CDATA[Минимальная сумма заказа для всех заказов, использующих этот метод.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_6</key>
+      <value><![CDATA[Если зона выбрана, то доставка этим методом будет осуществляться только в эту зону.]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+  </definitions>
+</language>

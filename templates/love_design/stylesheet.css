@@ -1,0 +1,948 @@
+/*
+  $Id: stylesheet.css 341 2005-12-09 03:58:53Z hpdl $
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2005 osCommerce
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License v2 (1991)
+  as published by the Free Software Foundation.
+*/
+
+/* Reset defaults */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Compensate for Firefox */
+select { min-width:1.5em; }
+
+li, dd {
+  margin-left: 20px;
+}
+
+a {
+    outline: none;
+}
+
+#pageIcon {
+	float:right;
+}
+
+ol, ul, li {
+	list-style: none;
+}
+
+body {
+  font: 10px "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  padding: 20px;
+  background: url(images/body-bg.png) repeat-x left top;
+}
+
+h1 {
+	font-size: 16px;
+	color: #03539a;
+	font-weight: bold;
+	background: url(images/hor-line.png) repeat-x left bottom;
+	margin-bottom: 12px;
+	padding-bottom: 6px;
+}
+
+h2 {
+  color: #9A9A9A;
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+:focus {
+     outline: 0;
+}
+
+h6 {
+  font-size: 11px;
+}
+
+td, p {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  border: 0;
+}
+
+/*
+ * Layout
+ */
+#headerLeft_L {
+width: 20px;
+height: 6px;
+background:url(images/header_left.jpg) no-repeat;
+background-position: left;
+}
+
+#headerRight_R {
+width: 20px;
+height: 6px;
+background:url(images/header_right.jpg) no-repeat;
+background-position: right;
+}
+
+#headerLogo_C {
+height: 6px;
+background:url(images/border.jpg) repeat-x;
+background-position: top;
+}
+
+#headerLeft {
+width: 20px;
+  height: auto 86px;
+background:url(images/border_l.jpg) repeat-y;
+background-position: left;
+}
+
+#headerRight {
+width: 20px;
+  height: auto 86px;
+background:url(images/border_r.jpg) repeat-y;
+background-position: right;
+}
+
+#headerLeft_bread {
+width: 20px;
+border-left: 1px solid #ebebeb;
+background: #ffffff;
+}
+
+#headerRight_bread {
+width: 20px;
+border-right: 1px solid #ebebeb;
+background: #ffffff;
+}
+
+#pageHeader {
+  width: 100%; background: #ffffff;
+}
+
+#headerLogo {
+  height: auto 86px;
+text-align: left;
+vertical-align: middle;
+  padding-bottom: 75px;
+  padding-top: 5px;
+}
+
+#headerIcons {
+  text-align: right;
+  padding-top: 20px;
+  height: auto 86px;
+}
+
+#headerBar {
+  padding: 0 0.5em;
+}
+
+#pageContent {
+	width: 65.64%;
+	padding: 10px;
+	background: #ffffff;
+}
+
+#pageContent h2 {
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-bottom: 6px;
+}
+
+#pageContent h3 {
+	font-size: 13px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+#pageContent h4 {
+	font-size: 13px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+#pageContent h5 {
+	font-size: 13px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+#pageContent h6 {
+	font-size: 13px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+#pageContent ul {
+	list-style-type: disc;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+#pageContent li {
+	margin-bottom: 5px;
+}
+
+#pageContent p {
+	margin-bottom: 12px;
+}
+
+#pageColumnLeft {
+  	width: 17.18%;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	border-left: 1px solid #ebebeb;
+	background: #ffffff;
+}
+
+#pageColumnRight {
+	width: 17.18%;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	border-right: 1px solid #ebebeb;
+	background: #ffffff;
+}
+
+#pageFooter {
+  padding: 5px;
+}
+
+#pageFooter p {
+  text-align: center;
+}
+
+/*
+ * End Layout
+ */
+
+#headerBar {
+  background-color: #ffffff;
+  padding: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+#footerBar {
+  padding-left: 0px;
+  color: black;
+  font-weight: bold;
+height: 35px;
+background: #ffffff url(images/border.jpg) repeat-x;
+background-position: bottom;
+}
+
+#footerLeft_L {
+width: 20px;
+height: 35px;
+background:url(images/footer_left.jpg) no-repeat;
+background-position: left;
+}
+
+#footerRight_R {
+width: 20px;
+height: 35px;
+background:url(images/footer_right.jpg) no-repeat;
+background-position: right;
+}
+
+#breadcrumb {
+font-size: 12px;
+height: 33px;
+text-align: left;
+background:url(images/header-nav-lower.png) repeat-x;
+}
+
+.messageStack {
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #C8AD91;
+  background-color: #FFFCF5;
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #465584;
+  margin: 5px;
+}
+
+.moduleBox {
+}
+
+.moduleBox .content {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eaeaea;;
+  background: #f9f9f9;
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.moduleBox H6 {
+  padding: 5px 0px 5px 0px;
+}
+
+.submitFormButtons {
+  padding: 5px;
+}
+
+.submitFormButtons a:hover {
+  text-decoration: none;
+}
+
+#FormButtons a:hover {
+  text-decoration: none;
+}
+
+.listingPageLinks {
+  padding: 5px;
+}
+
+.moduleRow { }
+
+.moduleRowOver {
+  background-color: #D7E9F7;
+}
+
+.moduleRowSelected {
+  background-color: #E9F4FC;
+}
+
+.inputRequirement {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #cc0000;
+}
+
+
+/////////////////////////
+.boxText { font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif; font-size: 12px; }
+.errorBox { font-family : "Trebuchet MS", Verdana, Tahoma, sans-serif; font-size : 12px; background: #ffb3b5; font-weight: bold; }
+.stockWarning { font-family : "Trebuchet MS", Verdana, Tahoma, sans-serif; font-size : 12px; color: #cc0033; }
+.productsNotifications { background: #f2fff7; }
+.orderEdit { font-family : "Trebuchet MS", Verdana, Tahoma, sans-serif; font-size : 12px; color: #70d250; text-decoration: underline; font-weight: normal; }
+
+A {
+  color: black;
+  text-decoration: none;
+}
+
+A:hover {
+	color: #03539A;
+	text-decoration: underline;
+}
+
+FORM {
+  display: inline;
+}
+
+#headerNavigation {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+text-align: right;
+height: 31px;
+background:url(images/header-nav-lower.png) repeat-x;
+}
+
+.headerNavigation {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+TR.headerError {
+  background: #cc0000;
+}
+
+TD.headerError {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  background: #cc0000;
+  color: white;
+  font-weight : bold;
+  text-align : center;
+}
+
+TR.headerInfo {
+  background: #00ff00;
+}
+
+TD.headerInfo {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  background: #00ff00;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.infoBox {
+  background: #b6b7cb;
+}
+
+.infoBoxContents {
+  background: #f8f8f9;
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+}
+
+.infoBoxNotice {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContents {
+  background: #FFE6E6;
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+TD.infoBoxHeading {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  background: #bbc3d3;
+  color: white;
+  vertical-align: top;
+}
+
+TD.infoBox, SPAN.infoBox {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+  background: #f8f8f9;
+}
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+  background: #f8f8f9;
+}
+
+TABLE.productListing {
+  border: 1px;
+  border-style: solid;
+  border-color: #b6b7cb;
+  border-spacing: 1px;
+}
+
+.productListing-heading {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  background: #b6b7cb url(images/header-nav-lower.png) repeat-x 0 center;
+  color: white;
+  font-weight: bold;
+  height: 26px;
+}
+
+.productListing-heading a {
+  color: white;
+}
+
+TD.productListing-data {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+A.pageResults {
+  color: #0000FF;
+}
+
+A.pageResults:hover {
+  color: #0000FF;
+  background: #FFFF33;
+}
+
+TD.pageHeading, DIV.pageHeading {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #9a9a9a;
+}
+
+TR.subBar {
+  background: #f4f7fd;
+}
+
+TD.subBar {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+TD.accountCategory {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+  color: #aabbdd;
+}
+
+TD.fieldKey {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+TD.fieldValue {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+TD.tableHeading {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+CHECKBOX, INPUT, RADIO, SELECT {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+TEXTAREA {
+  width: 100%;
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+SPAN.greetUser {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #f0a480;
+  font-weight: bold;
+}
+
+TABLE.formArea {
+  background: #f1f9fe;
+  border-color: #7b9ebd;
+  border-style: solid;
+  border-width: 1px;
+}
+
+TD.formAreaTitle {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+SPAN.markProductOutOfStock {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #c76170;
+  font-weight: bold;
+}
+
+SPAN.productSpecialPrice {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  color: #cc0000;
+}
+
+SPAN.errorText {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  color: #cc0000;
+}
+
+.boxCheckoutTrail {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.boxCheckoutTrailActive {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FF8400;
+}
+
+/* message box */
+
+.messageBox { font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif; font-size: 12px; }
+.messageStackError, .messageStackWarning { font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif; font-size: 12px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif; font-size: 12px; background-color: #99ff00; }
+
+
+/* CSS Boxes */
+
+.boxGroup {
+//  border-width: 1px;
+//  border-color: #bbc3d3;
+//  border-style: solid; 
+}
+
+.boxNew {
+
+}
+
+.boxNew ul {
+	background: url(images/column-bottom-left.png) no-repeat left top;
+	margin-left: -18px;
+}
+
+.boxNew li {
+	background: url(images/column-bottom-right.png) no-repeat right top;
+}
+
+.boxTitle {
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #03539A;
+  text-indent: 12px;
+}
+
+.boxTitle a {
+  color: #03539A;
+}
+
+.boxTitle ul {
+	background: url(images/column-h3-blue-left.png) no-repeat left top;
+	margin-left: -18px;
+}
+
+.boxTitle li {
+	background: url(images/column-h3-blue-right.png) no-repeat right top;
+}
+
+.boxContents {
+	font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+	font-size: 12px;
+	background: url(images/column-bg-right.png) repeat-y right top;
+}
+
+.boxContents ol {
+margin-left: -20px;
+}
+
+.boxContents ul {
+	background: url(images/column-bg-left.png) repeat-y left top;
+	margin-left: -18px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.boxContents #keywords {
+	width: 85% !important;
+	border: 1px solid #EBEBEB;
+}
+
+.boxContents #email_address {
+	width: 85% !important;
+	border: 1px solid #EBEBEB;
+}
+
+.boxContents #password {
+	width: 85% !important;
+	border: 1px solid #EBEBEB;
+}
+
+#header-links {
+	background: url(images/header-links.png) no-repeat;
+	width: 160px;
+	height: 76px;
+	position: absolute;
+	top: 38px;
+	right: 32px;
+}
+
+#header-links-basket {
+	width: 160px;
+	float: left;
+	text-align: center;
+}
+
+#header-links-basket h5 {
+	font-size: 13px;
+	font-weight: bold;
+	vertical-align: middle;
+	margin-top: 8px;
+}
+
+#header-links-basket h5 a {
+	color: #333;
+}
+
+#header-links-basket p {
+	margin-top: 7px;
+}
+
+#header-links-basket img {
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+#header-links-basket a {
+	color: #333;
+	text-decoration: none;
+}
+
+#header-links-basket a:hover {
+	color: #c00;
+	text-decoration: underline;
+}
+
+#header-nav-search {
+	height: 35px;
+	position: absolute;
+	top: 119px;
+	background: url(images/header-nav-search.png) no-repeat left bottom;
+	right: 41px;
+	width: 267px;
+}
+
+#header-nav-search p {
+	color: #03539A;
+	font-weight: bold;
+	float: left;
+	margin-left: 8px;
+}
+
+#header-nav-search input {
+	vertical-align: middle;
+}
+
+#header-nav-search-box {
+	background: url(images/header-nav-search-box.png) no-repeat;
+	border-style: none;
+	width: 177px;
+	height: 18px;
+}
+#footer-navigation {
+	height: 34px;
+	background: url(images/header-nav-lower.png) repeat-x;
+	text-align: center;
+	margin-left: 22px;
+	margin-right: 22px;
+}
+
+#footer-navigation ul {
+	height: 34px; padding-left: 14px;
+}
+
+#footer-navigation li {
+	height: 34px;
+	display: inline;
+	text-align: center;
+}
+
+#footer-navigation li a {
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 20px;
+	line-height: 34px;
+	background: url(images/footer-navigation-sep.png) no-repeat right top;
+}
+
+#footer-navigation li a:hover {
+	color: #feeb02;
+}
+
+#footer-navigation li.last a {
+	background-image: none;
+	padding-right: 0;
+}
+
+#footer-copy {
+	clear: both;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: #898989;
+	font-size: 11px;
+//	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#footer-copy a {
+	color: #898989;
+	text-decoration: none;
+}
+
+#footer-copy a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+#header-nav-top {
+	height: 29px;
+	position: absolute;
+	top: 126px;
+	left: 42px;
+}
+
+#header-nav-top li {
+	float: left;
+	line-height: 29px;
+	background: url(images/header-nav-top-off-right.png) no-repeat right top;
+	padding-right: 15px;
+	margin-left: 0px;
+}
+
+#header-nav-top li a {
+	display: block;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	background: url(images/header-nav-top-off-left.png) no-repeat;
+	padding-left: 15px;
+}
+
+#header-nav-top li a:hover {
+	color: #c00;
+}
+
+.header-nav-top {
+     background: url(images/header-nav-top-on-center.png) repeat-x;
+}
+
+#header-nav-top li.selected {
+	background: url(images/header-nav-top-on-right.png) no-repeat right top;
+	padding-right: 17px;
+}
+
+#header-nav-top li.selected a {
+	color: white;
+	background: url(images/header-nav-top-on-left.png) no-repeat;
+	padding-left: 14px;
+}
+
+#header-nav-lower {
+	height: 33px;
+	top: 154px;
+	width: 400px;
+	position: absolute;
+//	background: url(images/header-nav-lower.png) repeat-x;
+	left: 22px;
+}
+
+#header-nav-lower li {
+	float: left;
+	height: 33px;
+	line-height: 33px;
+}
+
+#header-nav-lower ul {
+padding-left: 14px;
+}
+
+#header-nav-lower li a {
+	display: block;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 20px;
+	background: url(images/header-nav-lower-sep.png) no-repeat right top;
+}
+
+#header-nav-lower li.last a {
+	background-image: none;
+}
+
+#header-nav-lower li a:hover {
+	color: #feeb02;
+}
+
+#productVariantCombinationNotAvailable {
+  color: #cc0000;
+}
+
+.productInfoKey {
+  font-weight: bold;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+
+.productInfoValue {
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+
+#productInfoPrice {
+  font-weight: bold;
+}
+
+.ships24hours {
+  color: #45B04C;
+}
+
+FORM {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+FORM OL {
+  margin: 0;
+	padding: 0 0 10px;
+}
+
+FORM OL LI {
+  list-style: none;
+  margin: 0;
+  clear: left;
+}
+
+FORM LABEL {
+  float: left;
+  width: 140px;
+  margin: 5px;
+}
+
+FORM LABEL.fieldLabel {
+  float: none;
+}
+
+FORM INPUT, FORM SELECT, FORM TEXTAREA {
+}
+
+FORM EM {
+  color: #cc0000;
+  margin-left: 2px;
+}
+
+#counterst A IMG {
+opacity:0.72;
+— moz-opacity:0.72;
+filter:alpha (opacity=72);
+}
+#counterst a:hover img {
+opacity:1.0;
+— moz-opacity:1.0;
+filter:alpha (opacity=100);
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_saferpay_vt_title</key>
+      <value><![CDATA[Saferpay Virtual Terminal]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_description</key>
+      <value><![CDATA[Saferpay Virtual Terminal Transactions]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_method_title</key>
+      <value><![CDATA[Credit Card]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_error_general</key>
+      <value><![CDATA[There was a problem processing this order. Please check the billing information and try again.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_1</key>
+      <value><![CDATA[Enable Saferpay Virtual Terminal Module]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_2</key>
+      <value><![CDATA[Account ID]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_3</key>
+      <value><![CDATA[Special Hosting Password]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_4</key>
+      <value><![CDATA[Payment Zone]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_5</key>
+      <value><![CDATA[Set Order Status]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_6</key>
+      <value><![CDATA[Sort order of display]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_7</key>
+      <value><![CDATA[Enable Saferpay Virtual Terminal Module]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_8</key>
+      <value><![CDATA[The account ID of the Saferpay account to use.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_9</key>
+      <value><![CDATA[The special hosting password to use when connecting to the payment gateway.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_10</key>
+      <value><![CDATA[If a zone is selected, only enable this payment method for that zone.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_11</key>
+      <value><![CDATA[Set the status of orders made with this payment module to this value]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_saferpay_vt_admin_12</key>
+      <value><![CDATA[Sort order of display. Lowest is displayed first.]]></value>
+      <group>modules-payment</group>
+    </definition>	
+  </definitions>
+</language>

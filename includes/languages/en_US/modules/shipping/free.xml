@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_free_title</key>
+      <value><![CDATA[Free Shipping]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_description</key>
+      <value><![CDATA[Free Shipping]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_for_amount</key>
+      <value><![CDATA[for orders over %s]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_1</key>
+      <value><![CDATA[Enable Free Shipping]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_2</key>
+      <value><![CDATA[Shipping Cost]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_3</key>
+      <value><![CDATA[Shipping Zone]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_free_admin_4</key>
+      <value><![CDATA[Do you want to offer flat rate shipping?]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_5</key>
+      <value><![CDATA[The minimum order amount to apply free shipping to.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_free_admin_6</key>
+      <value><![CDATA[If a zone is selected, only enable this shipping method for that zone.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+  </definitions>
+</language>

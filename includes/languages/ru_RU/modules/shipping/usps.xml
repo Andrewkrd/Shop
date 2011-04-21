@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_usps_title</key>
+      <value><![CDATA[Почтовая служба США (USPS)]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_description</key>
+      <value><![CDATA[Почтовая служба США<br /><br />Вам понадобится зарегистрировать аккаунт в USPS в http://www.uspsprioritymail.com/et_regcert.html для возможности пользования этим модулем<br /><br />USPS предполагает что Вы будете использовать фунты, в качестве меры веса для Ваших товаров.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_error</key>
+      <value><![CDATA[Произошла ошибка в  USPS при вычислении доставки.<br />Если Вы предпочитаете использовать USPS в качестве метода доставки, пожалуйста, свяжитесь с владельцем магазина.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_1</key>
+      <value><![CDATA[Включить доставку USPS]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_2</key>
+      <value><![CDATA[Введите USPS ID пользователя]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_3</key>
+      <value><![CDATA[Введите USPS пароль]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_usps_admin_4</key>
+      <value><![CDATA[Использовать сервер для]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_5</key>
+      <value><![CDATA[Наценка за обработку]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_6</key>
+      <value><![CDATA[Налоговый класс]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_7</key>
+      <value><![CDATA[Зоны доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_8</key>
+      <value><![CDATA[Сортировать в списке]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_9</key>
+      <value><![CDATA[Вы хотите использовать доставку USPS?]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_usps_admin_10</key>
+      <value><![CDATA[Введите пользовательский идентификатор USPS, зарегистрированый за Вами.]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+    <definition>
+      <key>shipping_usps_admin_11</key>
+      <value><![CDATA[Укажите пароль к ID пользователя.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_usps_admin_12</key>
+      <value><![CDATA[Аккаунт в USPS предназначен для полноценой работы с сервером.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_usps_admin_13</key>
+      <value><![CDATA[Использовать наценку за обработку при использовании этого вида доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_14</key>
+      <value><![CDATA[Использовать следующий налоговый класс для этой доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_admin_15</key>
+      <value><![CDATA[Если зона выбрана, то доставка этим методом будет осуществляться только в эту зону.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_usps_admin_16</key>
+      <value><![CDATA[Сортировать в списке модулей доставки при проведении заказа.]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+    <definition>
+      <key>shipping_usps_admin_17</key>
+      <value><![CDATA[тестирования]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_usps_admin_18</key>
+      <value><![CDATA[полноценной работы]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_usps_admin_19</key>
+      <value><![CDATA[НЕТ]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+  </definitions>
+</language>

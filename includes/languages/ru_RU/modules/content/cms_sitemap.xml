@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>cms_sitemap_title</key>
+      <value><![CDATA[Статьи]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>cms_sitemap_title1</key>
+      <value><![CDATA[Отображать статьи]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>cms_sitemap_title2</key>
+      <value><![CDATA[Вы хотите отображать статьи?]]></value>
+      <group>modules-content</group>
+    </definition>	
+  </definitions>
+</language>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_quantity_discounts_title</key>
+      <value><![CDATA[Quantity Discounts]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_description</key>
+      <value><![CDATA[Quantity Discounts]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_store_policy</key>
+      <value><![CDATA[Quantity Discounts Store Policy]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_buy</key>
+      <value><![CDATA[Buy ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_spend</key>
+      <value><![CDATA[Spend ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_get</key>
+      <value><![CDATA[ get ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_items</key>
+      <value><![CDATA[items]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_category</key>
+      <value><![CDATA[or more items in a single category, ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_manufacturer</key>
+      <value><![CDATA[ or more items from a single manufacturer, ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_item</key>
+      <value><![CDATA[ or more of a single item, ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_cart</key>
+      <value><![CDATA[ or more of any item, ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_ds_category</key>
+      <value><![CDATA[ or more on items in a single category, ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_ds_item</key>
+      <value><![CDATA[ or more on a single item, ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_ds_cart</key>
+      <value><![CDATA[or more on all items in your cart]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_per_item_off</key>
+      <value><![CDATA[ per item off ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_off</key>
+      <value><![CDATA[ off ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_grossed_up</key>
+      <value><![CDATA[Grossed up ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_total_discount</key>
+      <value><![CDATA[Total Discount: ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_current_discount</key>
+      <value><![CDATA[Your Current Quantity Discount]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_explanation</key>
+      <value><![CDATA[* Explanation of Quantity Discount]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_header_quantity</key>
+      <value><![CDATA[Quantity]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_header_discount</key>
+      <value><![CDATA[Discount]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_header_amount_spent</key>
+      <value><![CDATA[Amount Spent]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_1</key>
+      <value><![CDATA[To display a discount]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_2</key>
+      <value><![CDATA[Sort Order]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_3</key>
+      <value><![CDATA[You want to display a discount in the order?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_4</key>
+      <value><![CDATA[Sorting at display in the order.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_5</key>
+      <value><![CDATA[Include Tax]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_6</key>
+      <value><![CDATA[Include Tax in calculation.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_7</key>
+      <value><![CDATA[Re-calculate Tax]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_8</key>
+      <value><![CDATA[Re-calculate Tax.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_9</key>
+      <value><![CDATA[Discount Units]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_10</key>
+      <value><![CDATA[Are AMOUNT values below expressed as a percentage or as currency units (e.g. dollars).]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_11</key>
+      <value><![CDATA[Discount Basis]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_12</key>
+      <value><![CDATA[How quantity totals are computed.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_13</key>
+      <value><![CDATA[Counting Method]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_14</key>
+      <value><![CDATA[Are LEVEL values below expressed in number of items or currency units (e.g. dollars spent).]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_15</key>
+      <value><![CDATA[Discount Level]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_16</key>
+      <value><![CDATA[Total required to reach this discount level]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_17</key>
+      <value><![CDATA[Discount Amount]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_18</key>
+      <value><![CDATA[Percent or amount off at this level]]></value>
+      <group>modules-order_total</group>
+    </definition>	
+  </definitions>
+</language>

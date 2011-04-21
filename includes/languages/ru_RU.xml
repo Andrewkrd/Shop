@@ -1,0 +1,2139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <data>
+    <title><![CDATA[Русский]]></title>
+    <code><![CDATA[ru_RU]]></code>
+    <locale><![CDATA[ru_RU.UTF-8,ru_RU,russian]]></locale>
+    <character_set><![CDATA[utf-8]]></character_set>
+    <text_direction><![CDATA[ltr]]></text_direction>
+    <date_format_short><![CDATA[%d.%m.%Y]]></date_format_short>
+    <date_format_long><![CDATA[%d.%m.%Y]]></date_format_long>
+    <time_format><![CDATA[%H:%M:%S]]></time_format>
+    <default_currency><![CDATA[RUB]]></default_currency>
+    <numerical_decimal_separator><![CDATA[.]]></numerical_decimal_separator>
+    <numerical_thousands_separator><![CDATA[,]]></numerical_thousands_separator>
+    <parent_language_code><![CDATA[]]></parent_language_code>
+  </data>
+  <definitions>
+    <definition>
+      <key>my_account</key>
+      <value><![CDATA[Мой аккаунт]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>cart_contents</key>
+      <value><![CDATA[Корзина]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>checkout</key>
+      <value><![CDATA[Оплата]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_top</key>
+      <value><![CDATA[Начало]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_shop</key>
+      <value><![CDATA[Онлайн магазин]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>sign_in</key>
+      <value><![CDATA[Войти]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>sign_out</key>
+      <value><![CDATA[Выйти]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>gender_male</key>
+      <value><![CDATA[Мужчина]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>gender_female</key>
+      <value><![CDATA[Женщина]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>pull_down_default</key>
+      <value><![CDATA[Выберите пожалуйста]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>js_error</key>
+      <value><![CDATA[Произошли ошибки при заполнении Вашей формы.\n\nСделайте, пожалуйста, следующие изменения:\n\n]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>js_error_already_submitted</key>
+      <value><![CDATA[Эта форма уже была подтверждена. Нажмите, пожалуйста, OK и ждите завершения процесса.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>form_required_information</key>
+      <value><![CDATA[* Обязательная информация]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>result_set_current_page</key>
+      <value><![CDATA[Страница %s из %d]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>result_set_number_of_products</key>
+      <value><![CDATA[Отображено с <b>%d</b> по <b>%d</b> (из <b>%d</b> товаров)]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>result_set_number_of_orders</key>
+      <value><![CDATA[Показано <b>%d</b> из <b>%d</b> (из <b>%d</b> заказов)]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>result_set_number_of_reviews</key>
+      <value><![CDATA[Отображено с <b>%d</b> по <b>%d</b> (из <b>%d</b> отзывов)]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>result_set_previous_page</key>
+      <value><![CDATA[[&lt;&lt;&nbsp;Назад]]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>result_set_next_page</key>
+      <value><![CDATA[[Вперед&nbsp;&gt;&gt;]]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>result_set_previous_gray_page</key>
+      <value><![CDATA[&nbsp;]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>result_set_next_gray_page</key>
+      <value><![CDATA[&nbsp;]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_add_address</key>
+      <value><![CDATA[Добавить адрес]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_back</key>
+      <value><![CDATA[Назад]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_buy_now</key>
+      <value><![CDATA[Купить]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_change_address</key>
+      <value><![CDATA[Изменить адрес]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_checkout</key>
+      <value><![CDATA[Оформить]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_confirm_order</key>
+      <value><![CDATA[Подтвердить заказ]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_continue</key>
+      <value><![CDATA[Продолжить]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_delete</key>
+      <value><![CDATA[Удалить]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_edit</key>
+      <value><![CDATA[Изменить]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_view</key>
+      <value><![CDATA[Смотреть]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_sign_in</key>
+      <value><![CDATA[Войти]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_add_to_cart</key>
+      <value><![CDATA[В корзину]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_reviews</key>
+      <value><![CDATA[Отзывы]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_search</key>
+      <value><![CDATA[Поиск]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_update_cart</key>
+      <value><![CDATA[Пересчитать]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>button_write_review</key>
+      <value><![CDATA[Написать отзыв]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>icon_in_cart</key>
+      <value><![CDATA[Добавить в корзину]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>tax_rate_unknown</key>
+      <value><![CDATA[Не определена налоговая ставка]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>footer</key>
+      <value><![CDATA[Copyright &copy; %s <a href="%s">%s</a><br />Powered by <a href="http://www.rubicshop.ru" target="_blank">RuBiC</a>]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>index_heading</key>
+      <value><![CDATA[Добро пожаловать в %s!]]></value>
+      <group>index</group>
+    </definition>
+    <definition>
+      <key>index_text</key>
+      <value><![CDATA[Это установленные по умолчанию настройки продукции для корзины покупок в электронном магазине RuBiC. Товары показываются в демонстрационных целях. <b>Любые купленные товары не будут доставляться, и клиент не будет о чем либо уведомлен</b>. Любая информация, указанная о товарах, должна восприниматься как вымышленная.]]></value>
+      <group>index</group>
+    </definition>
+    <definition>
+      <key>listing_image_heading</key>
+      <value><![CDATA[]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>listing_model_heading</key>
+      <value><![CDATA[Модель]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>listing_products_heading</key>
+      <value><![CDATA[Товар]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>listing_manufacturer_heading</key>
+      <value><![CDATA[Производитель]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>listing_quantity_heading</key>
+      <value><![CDATA[Количество]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>listing_price_heading</key>
+      <value><![CDATA[Цена]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>listing_weight_heading</key>
+      <value><![CDATA[Вес]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>listing_buy_now_heading</key>
+      <value><![CDATA[Купить]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>no_products_in_category</key>
+      <value><![CDATA[Товары в этой категории отсутствуют.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>filter_show</key>
+      <value><![CDATA[Показать:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>filter_all_categories</key>
+      <value><![CDATA[Все категории]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>filter_all_manufacturers</key>
+      <value><![CDATA[Все производители]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>greeting_guest</key>
+      <value><![CDATA[Добро пожаловать! <a href="%s">Авторизируйтесь</a>, или ознакомьтесь с <a href="%s">новыми поступлениями товаров</a> с момента последнего Вашего посещения.]]></value>
+      <group>index</group>
+    </definition>
+    <definition>
+      <key>greeting_customer</key>
+      <value><![CDATA[Мы рады снова приветствовать Вас %s! Ознакомьтесь с <a href="%s">новыми поступлениями товаров</a> с момента последнего Вашего посещения!]]></value>
+      <group>index</group>
+    </definition>
+    <definition>
+      <key>listing_sort_ascendingly</key>
+      <value><![CDATA[Сортировать колонку %s по возрастанию]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>listing_sort_descendingly</key>
+      <value><![CDATA[Сортировать колонку %s по убыванию]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_sign_in</key>
+      <value><![CDATA[Войти]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_sign_out</key>
+      <value><![CDATA[Выйти]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_my_account</key>
+      <value><![CDATA[Мой аккаунт]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_edit_account</key>
+      <value><![CDATA[Редактировать аккаунт]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_edit_password</key>
+      <value><![CDATA[Изменить пароль]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_my_orders</key>
+      <value><![CDATA[Заказы]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_order_information</key>
+      <value><![CDATA[Заказ №%s]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_newsletters</key>
+      <value><![CDATA[Новостная рассылка]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_notifications</key>
+      <value><![CDATA[Уведомления]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_address_book</key>
+      <value><![CDATA[Адресная книга]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_address_book_add_entry</key>
+      <value><![CDATA[Добавить запись]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_address_book_edit_entry</key>
+      <value><![CDATA[Редактировать запись]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_address_book_delete_entry</key>
+      <value><![CDATA[Удалить запись]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_create_account</key>
+      <value><![CDATA[Создать новый аккаунт]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_password_forgotten</key>
+      <value><![CDATA[Напомнить пароль]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>sign_in_heading</key>
+      <value><![CDATA[Здравствуйте. Авторизируйтесь пожалуйста.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>sign_out_heading</key>
+      <value><![CDATA[Выход из Вашего аккаунта]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>account_heading</key>
+      <value><![CDATA[Мой аккаунт]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>account_edit_heading</key>
+      <value><![CDATA[Информация о моем аккаунте]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>account_password_heading</key>
+      <value><![CDATA[Пароль моего аккаунта]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>orders_heading</key>
+      <value><![CDATA[Мои заказы]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_information_heading</key>
+      <value><![CDATA[Заказ №%s]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletters_heading</key>
+      <value><![CDATA[Мои новостные подписки]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>notifications_heading</key>
+      <value><![CDATA[Мои уведомления о товарах]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>address_book_heading</key>
+      <value><![CDATA[Моя адресная книга]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>address_book_add_entry_heading</key>
+      <value><![CDATA[Новая запись в адресной книге]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>address_book_edit_entry_heading</key>
+      <value><![CDATA[Редактировать запись в адресной книге]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>address_book_delete_entry_heading</key>
+      <value><![CDATA[Удалить запись из адресной книги]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>create_account_heading</key>
+      <value><![CDATA[Создайте аккаунт]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>create_account_success_heading</key>
+      <value><![CDATA[Ваш аккаунт создан!]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>login_new_customer_heading</key>
+      <value><![CDATA[Новый пользователь]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>login_new_customer_text</key>
+      <value><![CDATA[Я новый клиент, и еще не имею аккаунта.<br /><br />Создав аккаунт, Вы сможете использовать для своих целей этот магазин, делая покупки быстрыми и удобными. Вы будете уведомлены о состоянии заказов и сохраните историю заказов, которые делали здесь раньше.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>login_returning_customer_heading</key>
+      <value><![CDATA[Постоянный клиент]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>login_returning_customer_text</key>
+      <value><![CDATA[Я зарегистрированный клиент, и уже имею аккаунт.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>login_returning_customer_password_forgotten</key>
+      <value><![CDATA[Забыли пароль? <a href="%s">Нажмите сюда</a>.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>error_login_no_match</key>
+      <value><![CDATA[Не указан пароль и/или электронный адрес. Пожалуйста, повторите еще раз.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>date_added_to_shopping_cart</key>
+      <value><![CDATA[Дата добавления: %s]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>sign_out_text</key>
+      <value><![CDATA[Вы успешно вышли из Вашего аккаунта. Ваша корзина сохранена и будет восстановлена при следующей авторизации.<br /><br />Теперь можно безопасно покинуть сайт.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>my_account_title</key>
+      <value><![CDATA[Мой аккаунт]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>information_title</key>
+      <value><![CDATA[Информация]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>my_account_information</key>
+      <value><![CDATA[Посмотреть или изменить информацию о моем аккаунте]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>my_account_address_book</key>
+      <value><![CDATA[Посмотреть или изменить записи в моей адресной книге]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>my_account_password</key>
+      <value><![CDATA[Изменить пароль моего аккаунта]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>my_orders_title</key>
+      <value><![CDATA[Мои заказы]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>my_orders_view</key>
+      <value><![CDATA[Посмотреть заказы, сделанные мной]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>my_notifications_title</key>
+      <value><![CDATA[Мои уведомления]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>my_notifications_newsletters</key>
+      <value><![CDATA[Подписаться или отписаться от рассылки новостей]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>my_notifications_products</key>
+      <value><![CDATA[Посмотреть или изменить мои уведомления о товарах]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>my_password_title</key>
+      <value><![CDATA[Мой пароль]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_number</key>
+      <value><![CDATA[Номер заказа:]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_status</key>
+      <value><![CDATA[Статус заказа:]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_date</key>
+      <value><![CDATA[Дата заказа:]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_shipped_to</key>
+      <value><![CDATA[Получатель:]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_billed_to</key>
+      <value><![CDATA[Оплачено:]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_products</key>
+      <value><![CDATA[Товаров:]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_cost</key>
+      <value><![CDATA[Сумма счета:]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>no_orders_made_yet</key>
+      <value><![CDATA[Вы не сделали никаких покупок.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_number_heading</key>
+      <value><![CDATA[Заказ №%s]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_date_heading</key>
+      <value><![CDATA[Дата заказа:]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_total_heading</key>
+      <value><![CDATA[Итого заказ:]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>order_history_heading</key>
+      <value><![CDATA[История заказа]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>download_heading</key>
+      <value><![CDATA[Ссылка на закачку]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>download_link_expires</key>
+      <value><![CDATA[Ссылка истекает: %s]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>download_counter_remaining</key>
+      <value><![CDATA[осталось закачек]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_subscriptions_heading</key>
+      <value><![CDATA[Мои новостные рассылки]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_general</key>
+      <value><![CDATA[Общая новостная рассылка]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_general_description</key>
+      <value><![CDATA[Включить рассылку новостей о новых товарах, специальных ценах и других промоушен-анонсах.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_product_notifications</key>
+      <value><![CDATA[Мои уведомления о товарах]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_product_notifications_description</key>
+      <value><![CDATA[Список уведомлений о товарах позволит Вам быть своевременно осведомленными о товарах, которые Вам интересны.<br /><br />Чтобы быть своевременно уведомленым об изменениях товаров, выберите <b>Уведомить о всех товарах</b>.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_product_notifications_global</key>
+      <value><![CDATA[Уведомить о всех товарах]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_product_notifications_global_description</key>
+      <value><![CDATA[Получать уведомления о всех товарах.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_product_notifications_products</key>
+      <value><![CDATA[Уведомления о товарах]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_product_notifications_products_description</key>
+      <value><![CDATA[Чтобы удалить уведомления о товарах, поставьте галочку на выбранном товаре, и нажмите Продолжить.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>newsletter_product_notifications_products_none</key>
+      <value><![CDATA[В настоящее время нет отмеченных товаров для уведомлений.<br /><br />Чтобы добавить товары к Вашему списку уведомлений, нажмите на ссылку уведомления, доступную на странице с подробным описанием товара.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>primary_address_title</key>
+      <value><![CDATA[Основной адрес]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>primary_address_description</key>
+      <value><![CDATA[Этот адрес будет использоваться по умолчанию для доставки и составления счетов по заказам, размещенным в этом магазине.<br /><br />Этот адрес также будет использоваться как базовый для товаров и расчета налогов.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>address_book_title</key>
+      <value><![CDATA[Установки адресной книги]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>primary_address_marker</key>
+      <value><![CDATA[(Основной адрес)]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>address_book_maximum_entries</key>
+      <value><![CDATA[<font color="#ff0000"><b>Заметка:</b></font>Максимально разрешено %s записей в адресной книге.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>address_book_delete_address_title</key>
+      <value><![CDATA[Удалить адрес]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>address_book_delete_address_description</key>
+      <value><![CDATA[Вы действительно уверены что хотите удалить выбранный адрес из адресной книги?]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>address_book_new_address_title</key>
+      <value><![CDATA[Новый адрес]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>selected_address_title</key>
+      <value><![CDATA[Выбрать адрес]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>set_as_primary</key>
+      <value><![CDATA[Установить основным адресом.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>create_account_terms_heading</key>
+      <value><![CDATA[Конфиденциальность]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>create_account_terms_description</key>
+      <value><![CDATA[Пожалуйста, подтвердите что Вы соглашаетесь с нашим регламентом о конфиденциальности, отметив это соответствующим выбором. Прочитать регламент о конфиденциальности можно <a href="%s">кликнув сюда</a>.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>create_account_terms_confirm</key>
+      <value><![CDATA[Я прочитал регламент о конфиденциальности, и согласен с ним.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>password_forgotten_heading</key>
+      <value><![CDATA[Напомнить пароль]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>password_forgotten</key>
+      <value><![CDATA[Если Вы забыли свой пароль, то введите Ваш E-mail адрес ниже,  и мы пошлем Вам E-mail сообщение, содержащее Ваш новый пароль.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>email_create_account_subject</key>
+      <value><![CDATA[Добро пожаловать в %s]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>email_create_account_body</key>
+      <value><![CDATA[%s приветствует Вас!
+
+Теперь вы сможете воспользоваться различными службами, которые мы создали для Вас. Часть из этих служб включает в себя:
+
+
+ПОСТОЯННАЯ КОРЗИНА ПОКУПАТЕЛЯ - любые товары, добавленные в онлайн-корзину, останутся там пока Вы не удалите их или не купите.
+
+АДРЕСНАЯ КНИГА - теперь мы сможем доставить товары по любому другому Вашему адресу. Это удобно, например, для того, чтобы посылать подарки ко Дню Рождения непосредственно имениннику.
+
+ИСТОРИЯ ЗАКАЗОВ - просматривайте хронологию покупок, которые Вы осуществляли.
+
+ОТЗЫВЫ О ТОВАРАХ - сделайте доступным свое мнение о товаре совместно с другими нашими клиентами.
+
+
+Для получения справки в нашем онлайн-сервисе, пожалуйста, сделайте запрос на E-mail адрес владельца магазина: %s.
+
+Примечание: Этот E-mail адрес был сообщен нам одним из наших клиентов. Если Вы не делали запрос на регистрацию аккаунта на нашем сайте, пожалуйста, сообщите об этом нам.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>email_addressing_gender_male</key>
+      <value><![CDATA[Уважаемый пользователь %s,]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>email_addressing_gender_female</key>
+      <value><![CDATA[Уважаемая пользователь %s,]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>email_addressing_gender_unknown</key>
+      <value><![CDATA[Уважаемый пользователь с фамилией %s,]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>email_password_reminder_subject</key>
+      <value><![CDATA[Напоминание пароля. Отправитель: %s]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>email_password_reminder_body</key>
+      <value><![CDATA[Был выполнен запрос нового пароля с IP %s.
+
+Ваш новый пароль для входа в %s :
+
+%s
+
+Для получения справки в нашем онлайн-сервисе пошлите, пожалуйста, запрос на E-mail адрес владельца магазина: %s.
+
+Примечание: Если Вы не делали запроса пароля через службу напоминания пароля в нашем онлайн-магазине, пожалуйста, сообщите нам об этом как можно скорее.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>success_account_created</key>
+      <value><![CDATA[Поздравляем! Ваш новый аккаунт успешно создан! Теперь Вы сможете пользоваться привилегиями клиента, и расширить с нами свой опыт онлайн-покупок. Если у Вас возникли вопросы относительно проведения операций в этом онлайн-магазине, пожалуйста, свяжитесь по электронной почте <a href="%s"> с владельцем магазина</a>.<br /><br />Ответ будет отправлен на указанный E-mail адрес. Если Вы не получите ответ в течение часа, то обязательно свяжитесь с нами по этому поводу.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>success_account_updated</key>
+      <value><![CDATA[Ваш аккаунт был успешно обновлен!]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>success_password_updated</key>
+      <value><![CDATA[Пароль Вашего аккаунта был успешно обновлен!]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>success_newsletter_updated</key>
+      <value><![CDATA[Ваша подписка на новостную рассылку была успешна обновлена!]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>success_notifications_updated</key>
+      <value><![CDATA[Ваши уведомления о товарах были успешно обновлены!]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>success_address_book_entry_deleted</key>
+      <value><![CDATA[Выбранный адрес был успешно удален из Вашей адресной книги.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>success_address_book_entry_updated</key>
+      <value><![CDATA[Ваша адресная книга была успешно обновлена.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>success_password_forgotten_sent</key>
+      <value><![CDATA[Новый пароль был выслан на Ваш E-mail адрес.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>warning_primary_address_deletion</key>
+      <value><![CDATA[Основной адрес не может быть удален. Пожалуйста, назначьте другой адрес в качестве основного, и повторите снова.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>error_current_password_not_matching</key>
+      <value><![CDATA[Ваш текущий пароль не соответствует тому, что сохранен в наших записях. Пожалуйста, попытайтесь заново.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>error_address_book_entry_non_existing</key>
+      <value><![CDATA[Запись в адресной книге не существует.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>error_address_book_full</key>
+      <value><![CDATA[Ваша адресная книга заполнена. Пожауйста, удалите ненужный адрес чтобы сохранить новый.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>error_password_forgotten_no_email_address_found</key>
+      <value><![CDATA[Ошибка: E-Mail адрес не был найден в наших записях. Пожалуйста, попытайтесь снова.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>warning_install_directory_exists</key>
+      <value><![CDATA[Инсталяционная папка доступна в: %s. Пожалуйста, удалите эту папку из соображений безопасности.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>warning_config_file_writeable</key>
+      <value><![CDATA[Доступен файл для изменения конфигурации в: %s. Это потенциальный риск. Пожалуйста, установите правильные пользовательские права для этого файла.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>warning_session_directory_non_existent</key>
+      <value><![CDATA[Не доступен каталог сессий в: %s. Сессии не будут работать пока этот каталог не будет создан.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>warning_session_directory_not_writeable</key>
+      <value><![CDATA[Не доступна возможность записи в каталоге сессии в: %s. Сессии не будут работать пока не будут установлены правильные пользовательские настройки.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>warning_session_auto_start</key>
+      <value><![CDATA[session.auto_start включен - пожалуйста, отключите эту php особенность в php.ini и перезагрузите сервер.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>warning_download_directory_non_existent</key>
+      <value><![CDATA[Директории для загрузки товаров не существует в: %s. Загружаемые товары не будут работать пока это не будет исправлено.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_checkout</key>
+      <value><![CDATA[Оплата]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_checkout_shopping_cart</key>
+      <value><![CDATA[Корзина]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_checkout_shipping</key>
+      <value><![CDATA[Вариант доставки]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_checkout_shipping_address</key>
+      <value><![CDATA[Адрес доставки]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_checkout_payment</key>
+      <value><![CDATA[Метод оплаты]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_checkout_payment_address</key>
+      <value><![CDATA[Платежный адрес]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_checkout_confirmation</key>
+      <value><![CDATA[Подтверждение]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_checkout_success</key>
+      <value><![CDATA[Успешно завершено!]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>shopping_cart_heading</key>
+      <value><![CDATA[Корзина]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>shipping_method_heading</key>
+      <value><![CDATA[Вариант доставки]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>shipping_address_heading</key>
+      <value><![CDATA[Адрес доставки]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>payment_method_heading</key>
+      <value><![CDATA[Метод оплаты]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>payment_address_heading</key>
+      <value><![CDATA[Платежный адрес]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>confirmation_heading</key>
+      <value><![CDATA[Подтверждение]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>success_heading</key>
+      <value><![CDATA[Ваш заказ был успешно обработан!]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>shipping_address_title</key>
+      <value><![CDATA[Адрес доставки]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>choose_shipping_destination</key>
+      <value><![CDATA[Выберите пожалуйста адрес в адресной книге, по которому Вам необходимо доставить товар.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>selected_shipping_destination</key>
+      <value><![CDATA[В настоящее время этот выбранный адрес доставки будет использован для доставки в этом заказе.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>current_shipping_address_title</key>
+      <value><![CDATA[Адрес доставки:]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>please_select</key>
+      <value><![CDATA[Выберите пожалуйста]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>shipping_method_title</key>
+      <value><![CDATA[Вариант доставки]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>choose_shipping_method</key>
+      <value><![CDATA[Пожалуйста, выберите основной вариант доставки, который будет использоваться в этом заказе.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>only_one_shipping_method_available</key>
+      <value><![CDATA[В настоящее время это единственный доступный вариант доставки.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>add_comment_to_order_title</key>
+      <value><![CDATA[Добавить примечание к этому заказу]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>address_book_entries_title</key>
+      <value><![CDATA[Установки адресной книги]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>select_another_shipping_destination</key>
+      <value><![CDATA[Пожалуйста, выберите другой основной адрес доставки, если в этом заказе нужно осуществить доставку в другое место.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>select_another_billing_destination</key>
+      <value><![CDATA[Пожалуйста, укажите другой основной платежный адрес, если в этом заказе нужно осуществить доставку счетов в другое место.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>new_shipping_address_title</key>
+      <value><![CDATA[Новый адрес доставки]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>new_shipping_address</key>
+      <value><![CDATA[Пожалуйста, используйте следующую форму для создания нового адреса доставки, используемого в этом заказе.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>new_billing_address_title</key>
+      <value><![CDATA[Новый платежный адрес]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>new_billing_address</key>
+      <value><![CDATA[Пожалуйста, используйте следующую форму для создания нового платежного адреса, используемого в этом заказе.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>billing_address_title</key>
+      <value><![CDATA[Платежный адрес]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>selected_billing_destination</key>
+      <value><![CDATA[Сейчас выбран этот платежный адрес для доставки счетов.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>choose_billing_destination</key>
+      <value><![CDATA[Выберите пожалуйста из Вашей адресной книги адрес, на который Вы хотели бы получать счета.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>current_billing_address_title</key>
+      <value><![CDATA[Платежный адрес:]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>continue_checkout_procedure_title</key>
+      <value><![CDATA[Продолжить процедуру оплаты]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>continue_checkout_procedure_to_shipping</key>
+      <value><![CDATA[выбрать удобный вариант доставки.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>continue_checkout_procedure_to_payment</key>
+      <value><![CDATA[выбрать удобный метод оплаты.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>continue_checkout_procedure_to_confirmation</key>
+      <value><![CDATA[подтвердить заказ.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>shopping_cart_empty</key>
+      <value><![CDATA[Ваша корзина пуста!]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>subtotal_title</key>
+      <value><![CDATA[Сумма:]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>total_title</key>
+      <value><![CDATA[Итого:]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>products_out_of_stock_checkout_not_possible</key>
+      <value><![CDATA[Выбранные товары %s отсутствуют в необходимом количестве на нашем складе.<br />Пожалуйста, измените количество выбранных товаров.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>products_out_of_stock_checkout_possible</key>
+      <value><![CDATA[Выбранные товары %s отсутствуют в необходимом количестве на нашем складе.<br />Вы можете в любом случае их купить, выбрав нужное количество и проверив их наличие на нашем складе,  для быстрой доставки после оплаты.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>order_conditions_title</key>
+      <value><![CDATA[Условия использования]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>order_conditions_description</key>
+      <value><![CDATA[Пожалуйста, выразите согласие с условиями использования к этому заказу, отметив это в указанном поле. Условия использования можно прочитать <a href="%s"><u>нажав сюда</u></a>.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>order_conditions_acknowledge</key>
+      <value><![CDATA[Я прочитал условия использования к этому заказу, и согласен с ними.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>payment_method_title</key>
+      <value><![CDATA[Метод оплаты]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>choose_payment_method</key>
+      <value><![CDATA[Пожалуйста, выберите основной метод оплаты, используемый в этом заказе.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>only_one_payment_method_available</key>
+      <value><![CDATA[В настоящее время это единственный метод оплаты, доступный для этого заказа.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>order_delivery_address_title</key>
+      <value><![CDATA[Адрес доставки]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>order_shipping_method_title</key>
+      <value><![CDATA[Вариант доставки]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>order_products_title</key>
+      <value><![CDATA[Товары]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>order_tax_title</key>
+      <value><![CDATA[Налог]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>order_total_title</key>
+      <value><![CDATA[Итого]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>order_billing_address_title</key>
+      <value><![CDATA[Платежный адрес]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>order_payment_method_title</key>
+      <value><![CDATA[Метод оплаты]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>order_payment_information_title</key>
+      <value><![CDATA[Платежная информация]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>order_comments_title</key>
+      <value><![CDATA[Добавить комментарий к заказу]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>order_text_edit_title</key>
+      <value><![CDATA[(изменить)]]></value>
+      <group>order</group>
+    </definition>
+    <definition>
+      <key>email_order_subject</key>
+      <value><![CDATA[Заказ обрабатывается]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>email_order_order_number</key>
+      <value><![CDATA[Номер заказа: %s]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>email_order_invoice_url</key>
+      <value><![CDATA[Детализация счета: %s]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>email_order_date_ordered</key>
+      <value><![CDATA[Дата заказа: %s]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>email_order_status</key>
+      <value><![CDATA[Статус заказа: %s]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>email_order_products</key>
+      <value><![CDATA[Товары]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>email_order_delivery_address</key>
+      <value><![CDATA[Адрес доставки]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>email_order_billing_address</key>
+      <value><![CDATA[Платежный адрес]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>email_order_payment_method</key>
+      <value><![CDATA[Метод оплаты]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>email_order_separator</key>
+      <value><![CDATA[------------------------------------------------------]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>order_processed_successfully</key>
+      <value><![CDATA[Ваш заказ был успешно обработан. Товары будут доставлены по указанному адресу в течение 2-5 рабочих дней.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>add_selection_to_product_notifications</key>
+      <value><![CDATA[Подпишитесь на уведомления об изменениях или обновлениях товаров, указанных ниже:]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>view_order_history</key>
+      <value><![CDATA[Вы можете увидеть всю хронологию заказа, перейдя на страницу <u><a href="%s">Мой аккаунт</a></u> и нажав там на ссылку <u><a href="%s">История заказов</a></u>.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>contact_store_owner</key>
+      <value><![CDATA[Пожалуйста, задайте любые имеющиеся вопросы <u><a href="%s">владельцу магазина</a></u>.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>thanks_for_shopping_with_us</key>
+      <value><![CDATA[Спасибо за онлайн-покупку!]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>download_footer</key>
+      <value><![CDATA[Вы можете загрузить Ваши товары позже тут -  %s]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_information</key>
+      <value><![CDATA[Информация]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_contact</key>
+      <value><![CDATA[Контакты]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_sitemap</key>
+      <value><![CDATA[Карта сайта]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_cookie_usage</key>
+      <value><![CDATA[Использование Cookie]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_ssl_check</key>
+      <value><![CDATA[Проверка безопасности]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>info_heading</key>
+      <value><![CDATA[Информация и помощь]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>info_contact_heading</key>
+      <value><![CDATA[Контакты]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>info_sitemap_heading</key>
+      <value><![CDATA[Карта сайта]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>info_cookie_usage_heading</key>
+      <value><![CDATA[Использование Cookie]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>info_ssl_check_heading</key>
+      <value><![CDATA[Проверка безопасности]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>contact</key>
+      <value><![CDATA[Здесь должна быть указана необходимая информация.]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>cookie_usage</key>
+      <value><![CDATA[Мы определили что Ваш браузер не поддерживает cookies, или установки cookies заблокированы.<br /><br />Для продолжения онлайн-покупок, мы рекомендуем Вам включить cookies в Вашем браузере.<br /><br />Для браузера <b>Internet Explorer</b>, пожалуйста, следуйте инструкции:<br /><ol><li>Нажмите в браузере вкладку "Сервис",и выберите "Свойства обозревателя"</li><li>Выберите вкладку "Безопасность", и сбросьте уровень безопасности на "Средний"</li></ol>Мы установили эти настройки для Вашей безопасности, и приносим искренние извинения если вызвали какие-либо неудобства.<br /><br />Пожалуйста, свяжитесь с владельцем магазина если у Вас возникнут какие-либо вопросы, касающиеся этого требования, или продолжите покупку не через интернет (оффлайн).]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>ssl_check</key>
+      <value><![CDATA[Мы обнаружили что Ваш браузер сгенерировал другой "SSL Session ID", используемый на всех наших защищенных страницах.<br /><br />Для дополнительных мер безопасности Вам необходимо заново произвести авторизацию, чтобы продолжить онлайн-покупку.<br /><br />Некоторые более старые браузеры не имеют возможности генерировать "SSL Session ID" автоматически, как этого требуем мы. Если Вы используете такой браузер, то мы рекомендуем Вам перейти на браузеры типа <a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>, <a href="http://www.mozilla.com/firefox/" target="_blank">Firefox</a>, или <a href="http://www.opera.com" target="_blank">Opera</a> для продолжения Вашей онлайн-покупки.<br /><br />Мы установили эти настройки для Вашей безопасности, и приносим искренние извинения если вызвали какие-либо неудобства.<br /><br />Пожалуйста, свяжитесь с владельцем магазина если у Вас возникнут какие-либо вопросы, касающиеся этого требования, или продолжите покупку не через интернет (оффлайн).]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>contact_title</key>
+      <value><![CDATA[Контактная информация]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>contact_store_address_title</key>
+      <value><![CDATA[Адрес магазина]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>contact_name_title</key>
+      <value><![CDATA[Полное имя:]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>contact_email_address_title</key>
+      <value><![CDATA[E-mail адрес:]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>contact_enquiry_title</key>
+      <value><![CDATA[Запрос:]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>contact_email_sent_successfully</key>
+      <value><![CDATA[Ваш запрос успешно отправлен владельцу магазина.]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>contact_email_subject</key>
+      <value><![CDATA[Запрос через форму обратной связи]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_account</key>
+      <value><![CDATA[Мой аккаунт]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_account_edit</key>
+      <value><![CDATA[Информация аккаунта]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_address_book</key>
+      <value><![CDATA[Адресная книга]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_account_history</key>
+      <value><![CDATA[История заказов]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_account_notifications</key>
+      <value><![CDATA[Новостные подписки]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_shopping_cart</key>
+      <value><![CDATA[Корзина]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_checkout_shipping</key>
+      <value><![CDATA[Оплата]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_advanced_search</key>
+      <value><![CDATA[Расширенный поиск]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_products_new</key>
+      <value><![CDATA[Новые товары]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_specials</key>
+      <value><![CDATA[Специальная цена]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>sitemap_reviews</key>
+      <value><![CDATA[Отзывы]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>cookie_usage_box_heading</key>
+      <value><![CDATA[Cookie для безопасности и конфиденциальности]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>cookie_usage_box_contents</key>
+      <value><![CDATA[Cookies необходимы для покупки в этом онлайн-магазине чтобы повысить конфиденциальность и устранить проблемы с безопасностью при посещении Вами этого сайта.<br /><br />Включенная поддержка cookie в вашем браузере, повышает защиту соединения между Вами и этим сайтом, позволяя убедиться нам что это точно Вы, в целях предотвращения утечки конфиденциальной информации.]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>ssl_check_box_heading</key>
+      <value><![CDATA[Безопасность и конфиденциальность]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>ssl_check_box_contents</key>
+      <value><![CDATA[Мы подтверждаем что SSL Session ID, автоматически сгенерированный Ваши браузером при каждом  безопасном запросе страницы, создан этим сервером.<br /><br />Такая проверка доказывает, что навигацию на этом сайте производите Вы сами, и никто больше.]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>contact_code_title</key>
+      <value><![CDATA[Проверочный код:]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>field_concat_captcha_check_error</key>
+      <value><![CDATA[Ваш проверочный код видимо ошибочный. Пожалуйста, сделайте необходимые изменения.]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>field_customer_enquiry_check_error</key>
+      <value><![CDATA[Сообщение не указано. Пожалуйста, сделайте необходимые изменения.]]></value>
+      <group>info</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_new_products</key>
+      <value><![CDATA[Новые товары]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_specials</key>
+      <value><![CDATA[Специальная цена]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_reviews</key>
+      <value><![CDATA[Отзывы]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_reviews_new</key>
+      <value><![CDATA[Новый отзыв]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_tell_a_friend</key>
+      <value><![CDATA[Сообщите другу]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>product_not_found_heading</key>
+      <value><![CDATA[Товар отсутствует]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>no_new_products</key>
+      <value><![CDATA[В настоящее время нет доступных товаров.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>new_products_heading</key>
+      <value><![CDATA[Новые товары]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>specials_heading</key>
+      <value><![CDATA[Специальная цена]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>reviews_heading</key>
+      <value><![CDATA[Отзывы]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>product_not_found</key>
+      <value><![CDATA[Товар отсутствует!]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>number_of_product_reviews</key>
+      <value><![CDATA[Количество отзывов:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>go_to_external_products_webpage</key>
+      <value><![CDATA[Для получения дополнительной информации, пожалуйста, посетите эту <u><a href="%s" target="_blank">страницу о товаре</a></u>.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>date_availability</key>
+      <value><![CDATA[<font color="#ff0000">Этот товар будет на складе %s.</font>]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>product_attributes</key>
+      <value><![CDATA[Расширенные опции:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>enlarge_image</key>
+      <value><![CDATA[Нажмите чтобы увеличить]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>date_added</key>
+      <value><![CDATA[Дата добавления:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>manufacturer</key>
+      <value><![CDATA[Производитель:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>price</key>
+      <value><![CDATA[Цена:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>average_rating</key>
+      <value><![CDATA[Средняя оценка:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>rating_of_5_stars</key>
+      <value><![CDATA[%s из 5 звезд!]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>no_reviews_available</key>
+      <value><![CDATA[Отзывы отсутствуют.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>new_review_title</key>
+      <value><![CDATA[Новый отзыв]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>field_review_rating</key>
+      <value><![CDATA[Рейтинг:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>field_review_from</key>
+      <value><![CDATA[От:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>review_lowest_rating_title</key>
+      <value><![CDATA[Плохо]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>review_highest_rating_title</key>
+      <value><![CDATA[Хорошо]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>customer_details_title</key>
+      <value><![CDATA[Ваши данные]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>friend_details_title</key>
+      <value><![CDATA[Данные Ваших друзей]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>tell_a_friend_message</key>
+      <value><![CDATA[Ваше сообщение]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>field_tell_a_friend_customer_name</key>
+      <value><![CDATA[Ваше имя:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>field_tell_a_friend_customer_email_address</key>
+      <value><![CDATA[Ваш E-Mail адрес:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>field_tell_a_friend_friends_name</key>
+      <value><![CDATA[Имя Вашего друга:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>field_tell_a_friend_friends_email_address</key>
+      <value><![CDATA[E-Mail Вашего друга:]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>email_tell_a_friend_subject</key>
+      <value><![CDATA[Ваш друг, %s, рекомендует этот товар, который продает %s]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>email_tell_a_friend_intro</key>
+      <value><![CDATA[Привет %s!
+
+Ваш друг, %s, считает что Вам будет интересен этот товар: %s. Магазин, в котором размешен товар: %s.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>email_tell_a_friend_link</key>
+      <value><![CDATA[Посмотреть товар можно нажав на ссылку ниже, или скопировать и вставить ссылку в Ваш веб браузер:
+
+%s]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>email_tell_a_friend_signature</key>
+      <value><![CDATA[С наилучшими пожеланиями,
+
+%s]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>success_review_new</key>
+      <value><![CDATA[Спасибо за Ваш отзыв! Он был получен и сейчас активен!]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>success_review_moderation</key>
+      <value><![CDATA[Спасибо за Ваш отзыв! Он был получен, и сейчас находится на рассмотрении для одобрения.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>success_tell_a_friend_email_sent</key>
+      <value><![CDATA[На Ваш E-mail %s успешно послано %s.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>error_tell_a_friend_friends_name_empty</key>
+      <value><![CDATA[Ошибка: Имена Ваших друзей не должны быть пустыми.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>error_tell_a_friend_invalid_friends_email_address</key>
+      <value><![CDATA[Ошибка: E-mail ваших друзей должен соответствовать правильному E-mail адресу.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>error_tell_a_friend_customers_name_empty</key>
+      <value><![CDATA[Ошибка: Ваше имя не должно быть пустым.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>error_tell_a_friend_invalid_customers_email_address</key>
+      <value><![CDATA[Ошибка: Ваш E-mail должен быть правильным E-mail адресом.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_search</key>
+      <value><![CDATA[Поиск]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_search_results</key>
+      <value><![CDATA[Результаты]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>search_heading</key>
+      <value><![CDATA[Поиск]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>advanced_search_heading</key>
+      <value><![CDATA[Расширенный поиск]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>search_results_heading</key>
+      <value><![CDATA[Результаты поиска]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>search_criteria_title</key>
+      <value><![CDATA[Поиск по критерию]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>field_search_categories</key>
+      <value><![CDATA[Категории:]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>field_search_recursive</key>
+      <value><![CDATA[Включая подкатегории]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>field_search_manufacturers</key>
+      <value><![CDATA[Производители:]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>field_search_price_from</key>
+      <value><![CDATA[Цена от:]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>field_search_price_to</key>
+      <value><![CDATA[Цена до:]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>field_search_date_from</key>
+      <value><![CDATA[Дата от:]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>field_search_date_to</key>
+      <value><![CDATA[Дата до:]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>search_help_tips</key>
+      <value><![CDATA[Помощь по поиску]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>search_help_heading</key>
+      <value><![CDATA[Помощь по поиску]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>search_help</key>
+      <value><![CDATA[Ключевые слова могут быть отделены И и/или ИЛИ значениями для лучшего контроля над поисками результатов.<br /><br />Например, <u>Microsoft И мышь</u> сгенерирует набор результатов, которые будут содержать оба слова. Однако, для <u>мышь ИЛИ клавиатура</u> будет установлен результат, который будет содержать оба слова, или только ключевые слова.<br /><br />Точные фразы поиска будут искаться, если ключевые слова будут в двойных кавычках.<br /><br />Например, <u>"портативный компьютер"</u> в результате выдаст значения, которые будет соответствовать точной строке запроса.<br /><br />Скобки могут использоваться для большего контроля над результатами поиска.<br /><br />Например, <u>Microsoft и (клавиатура или мышь или "visual basic")</u>.]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>close_window</key>
+      <value><![CDATA[Закрыть окно]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>error_search_at_least_one_input</key>
+      <value><![CDATA[Как минимум одно из полей в форме поиска должно быть заполнено.]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>error_search_invalid_from_date</key>
+      <value><![CDATA[Ошибка в "Дата от:".]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>error_search_invalid_to_date</key>
+      <value><![CDATA[Ошибка в "Дата до:".]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>error_search_to_date_less_than_from_date</key>
+      <value><![CDATA["Дата до:" должна быть больше или равна значению "Дата от:".]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>error_search_price_from_not_numeric</key>
+      <value><![CDATA["Цена от:" должна быть числовым значением.]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>error_search_price_to_not_numeric</key>
+      <value><![CDATA["Цена до:" должна быть числовым значением.]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>error_search_price_to_less_than_price_from</key>
+      <value><![CDATA["Цена до:" должна быть больше или равна значению "Цена от:".]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>error_search_invalid_keywords</key>
+      <value><![CDATA[Ошибочное ключевое слово.]]></value>
+      <group>search</group>
+    </definition>
+    <definition>
+      <key>js_review_text</key>
+      <value><![CDATA[* Текст отзывов должен содержать как минимум %s знаков.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>js_review_rating</key>
+      <value><![CDATA[* Вы должны поставить оценку товару для Вашего отзыва.]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>js_no_payment_module_selected</key>
+      <value><![CDATA[* Пожалуйста, выберите метод оплаты для Вашего заказа.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>error_no_payment_module_selected</key>
+      <value><![CDATA[Пожалуйста, выберите метод оплаты для Вашего заказа.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>error_conditions_not_accepted</key>
+      <value><![CDATA[Пожалуйста, подтвердите условия использования для этого товара, обязательные к этому заказу, в поле, расположенном ниже.]]></value>
+      <group>checkout</group>
+    </definition>
+    <definition>
+      <key>error_privacy_statement_not_accepted</key>
+      <value><![CDATA[Пожалуйста, подтвердите условия по конфиденциальности, отметив в поле, расположенном ниже.]]></value>
+      <group>account</group>
+    </definition>
+    <definition>
+      <key>field_customer_gender</key>
+      <value><![CDATA[Пол:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_gender_error</key>
+      <value><![CDATA[Пожалуйста, выберите Ваш пол.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_first_name</key>
+      <value><![CDATA[Имя:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_first_name_error</key>
+      <value><![CDATA[Ваше имя должно содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_last_name</key>
+      <value><![CDATA[Фамилия:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_last_name_error</key>
+      <value><![CDATA[Ваша фамилия должна содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_date_of_birth</key>
+      <value><![CDATA[Дата рождения:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_date_of_birth_error</key>
+      <value><![CDATA[Установите правильное значение Вашей даты рождения.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_email_address</key>
+      <value><![CDATA[E-Mail адрес:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_email_address_error</key>
+      <value><![CDATA[Ваш E-Mail адрес должен содержать минимум %S символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_email_address_check_error</key>
+      <value><![CDATA[Ваш E-Mail адрес видимо ошибочный. Пожалуйста, сделайте необходимые изменения.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_email_address_exists_error</key>
+      <value><![CDATA[Ваш E-Mail адрес уже существует в наших записях. Пожалуйста, войдите под своим E-mail адресом или создайте учетную запись с другим E-mail адресом.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_company</key>
+      <value><![CDATA[Название компании:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_company_error</key>
+      <value><![CDATA[Название Вашей компании должно содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_street_address</key>
+      <value><![CDATA[Почтовый адрес:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_street_address_error</key>
+      <value><![CDATA[Ваш почтовый адрес должен содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_suburb</key>
+      <value><![CDATA[Район/Микрорайон:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_suburb_error</key>
+      <value><![CDATA[Ваши Район/Микрорайон должны содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_post_code</key>
+      <value><![CDATA[Почтовый индекс:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_post_code_error</key>
+      <value><![CDATA[Ваш почтовый индекс должен содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_city</key>
+      <value><![CDATA[Город/Поселок:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_city_error</key>
+      <value><![CDATA[Ваш Город/Поселок должен содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_state</key>
+      <value><![CDATA[Регион:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_state_error</key>
+      <value><![CDATA[Ваш Регион должен содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_state_select_pull_down_error</key>
+      <value><![CDATA[Пожалуйста, выберите Ваш Регион из раскрывающегося меню.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_country</key>
+      <value><![CDATA[Страна:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_country_error</key>
+      <value><![CDATA[Пожалуйста, выберите Вашу Страну из раскрывающегося меню.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_telephone_number</key>
+      <value><![CDATA[Номер телефона:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_telephone_number_error</key>
+      <value><![CDATA[Ваш номер телефона должен содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_fax_number</key>
+      <value><![CDATA[Номер факса:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_fax_number_error</key>
+      <value><![CDATA[Ваш номер факса должен содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_newsletter</key>
+      <value><![CDATA[Подписаться на новостную рассылку:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_password</key>
+      <value><![CDATA[Пароль:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_password_error</key>
+      <value><![CDATA[Ваш пароль должен содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_password_mismatch_with_confirmation</key>
+      <value><![CDATA[Подтверждение пароля должно соответствовать Вашему паролю.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_password_confirmation</key>
+      <value><![CDATA[Подтверждение пароля:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_password_current</key>
+      <value><![CDATA[Текущий пароль:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_password_current_error</key>
+      <value><![CDATA[Ваш пароль должен содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_password_new</key>
+      <value><![CDATA[Новый пароль:]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_password_new_error</key>
+      <value><![CDATA[Ваш новый пароль должен содержать минимум %s символов.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>field_customer_password_new_mismatch_with_confirmation_error</key>
+      <value><![CDATA[Подтверждение пароля должно соответствовать Вашему паролю.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>reviewed_by</key>
+      <value><![CDATA[от %s]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>review_rating</key>
+      <value><![CDATA[Рейтинг: %s [%s]]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>review_date_added</key>
+      <value><![CDATA[Дата добавления: %s]]></value>
+      <group>products</group>
+    </definition>
+    <definition>
+      <key>credit_card_number_error</key>
+      <value><![CDATA[Введенный номер кредитной карты неверный.<br />Пожалуйста, проверьте номер и попытайтесь заново.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>maximum_file_upload_size</key>
+      <value><![CDATA[(Макс.: %s)]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>variants_tag</key>
+      <value><![CDATA[от]]></value>
+      <group>general</group>
+    </definition>
+	<definition>
+      <key>customer_name</key>
+      <value><![CDATA[Имя пользователя:]]></value>
+      <group>general</group>
+    </definition>
+	<definition>
+      <key>shipping_method_available</key>
+      <value><![CDATA[Сведения о доставке]]></value>
+      <group>general</group>
+    </definition>
+	<definition>
+      <key>service_debug_check_locale</key>
+      <value><![CDATA[Ошибка: Путь не существует:]]></value>
+      <group>general</group>
+    </definition>
+	<definition>
+      <key>service_debug_execution_time_log</key>
+      <value><![CDATA[Ошибка: Лог-файл времени выполнения не перезаписываемый:]]></value>
+      <group>general</group>
+    </definition>
+	<definition>
+      <key>service_debug_execution_display</key>
+      <value><![CDATA[Время выполнения:]]></value>
+      <group>general</group>
+    </definition>	
+	<definition>
+      <key>service_debug_number_of_queries</key>
+      <value><![CDATA[Количество запросов:]]></value>
+      <group>general</group>
+    </definition>		
+	<definition>
+      <key>items</key>
+      <value><![CDATA[шт.]]></value>
+      <group>general</group>
+    </definition>	
+	<definition>
+      <key>download_image</key>
+      <value><![CDATA[Скачать картинку]]></value>
+      <group>general</group>
+    </definition>		
+	</definitions>
+</language>

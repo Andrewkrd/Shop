@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_ogone_directlink_cc_title</key>
+      <value><![CDATA[Ogone DirectLink Credit Card]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_description</key>
+      <value><![CDATA[Ogone DirectLink Credit Card Transactions]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_method_title</key>
+      <value><![CDATA[Credit Card]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_credit_card_owner</key>
+      <value><![CDATA[Credit Card Owner:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_credit_card_number</key>
+      <value><![CDATA[Credit Card Number:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_credit_card_expiry_date</key>
+      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_credit_card_cvc</key>
+      <value><![CDATA[Credit Card Check Number (CVC):]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_js_credit_card_owner</key>
+      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_js_credit_card_number</key>
+      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_js_credit_card_not_accepted</key>
+      <value><![CDATA[* This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_js_credit_card_cvc</key>
+      <value><![CDATA[* The credit card check number (CVC) must be at least 3 characters.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_error_general</key>
+      <value><![CDATA[There was a problem processing this credit card. Please check the card information and try again.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_error_not_accepted</key>
+      <value><![CDATA[This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_1</key>
+      <value><![CDATA[Enable Ogone DirectLink Credit Card Module]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_2</key>
+      <value><![CDATA[Merchant ID (PSPID)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_3</key>
+      <value><![CDATA[User ID (optional)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_4</key>
+      <value><![CDATA[Merchant/User Password]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_5</key>
+      <value><![CDATA[SHA-1 Signature]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_6</key>
+      <value><![CDATA[Credit Cards]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_7</key>
+      <value><![CDATA[Verify With CVC]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_8</key>
+      <value><![CDATA[Transaction Server]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_9</key>
+      <value><![CDATA[Sort order of display]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_10</key>
+      <value><![CDATA[Payment Zone]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_11</key>
+      <value><![CDATA[Set Order Status]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_12</key>
+      <value><![CDATA[Do you want to accept Ogone DirectLink credit card payments?]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_13</key>
+      <value><![CDATA[The merchant ID (PSPID) to connect to the gateway with.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_14</key>
+      <value><![CDATA[The user ID to perform transactions under. (optional)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_15</key>
+      <value><![CDATA[The password to use with the merchant or user ID when connecting to the gateway.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_16</key>
+      <value><![CDATA[The additional string to use when building the SHA-1 signature of the transaction. (optional; 3.2)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_17</key>
+      <value><![CDATA[Accept these credit card types for this payment method.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_18</key>
+      <value><![CDATA[Verify the credit card with the billing address with the Credit Card Verification Checknumber (CVC)?]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_19</key>
+      <value><![CDATA[Perform transactions on the production server or on the testing server.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_20</key>
+      <value><![CDATA[Sort order of display. Lowest is displayed first.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_21</key>
+      <value><![CDATA[If a zone is selected, only enable this payment method for that zone.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ogone_directlink_cc_admin_22</key>
+      <value><![CDATA[Set the status of orders made with this payment module to this value]]></value>
+      <group>modules-payment</group>
+    </definition>	
+  </definitions>
+</language>

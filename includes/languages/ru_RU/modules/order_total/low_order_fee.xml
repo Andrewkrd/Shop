@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_loworderfee_title</key>
+      <value><![CDATA[Минимальная сумма заказа]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_description</key>
+      <value><![CDATA[Минимальная сумма заказа]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_1</key>
+      <value><![CDATA[Отображать минимальную сумму заказа]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_2</key>
+      <value><![CDATA[Сортировать в заказе]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_3</key>
+      <value><![CDATA[Разрешить минимальную сумму заказа]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_4</key>
+      <value><![CDATA[Минимальная сумма заказа при сумме заказа меньше этой]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_5</key>
+      <value><![CDATA[Сумма заказа]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_6</key>
+      <value><![CDATA[Добавить минимальную сумму заказа для заказов, сделанных:]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_7</key>
+      <value><![CDATA[Налоговые классы]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_8</key>
+      <value><![CDATA[Вы хотите показывать минимальную сумму заказа?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_9</key>
+      <value><![CDATA[Сортировка при отображении в заказе.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_10</key>
+      <value><![CDATA[Вы хотите разрешить минимальную сумму заказа?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_11</key>
+      <value><![CDATA[Добавьте минимальную сумму заказа к заказу меньше этой суммы.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_12</key>
+      <value><![CDATA[Минимальная сумма заказа.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_13</key>
+      <value><![CDATA[Выберите добавление минимальной суммы заказа для заказов, сделанных из следующих мест:]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_14</key>
+      <value><![CDATA[Использовать налоговые классы для минимальной суммы заказа.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_15</key>
+      <value><![CDATA[из своей страны]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_16</key>
+      <value><![CDATA[из зарубежа]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_17</key>
+      <value><![CDATA[из обоих мест]]></value>
+      <group>modules-order_total</group>
+    </definition>		
+  </definitions>
+</language>

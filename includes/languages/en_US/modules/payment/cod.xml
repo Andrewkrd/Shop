@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_cod_title</key>
+      <value><![CDATA[Cash On Delivery]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_description</key>
+      <value><![CDATA[Cash On Delivery]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_method_title</key>
+      <value><![CDATA[Cash On Delivery]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_1</key>
+      <value><![CDATA[Enable Cash On Delivery Module]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_2</key>
+      <value><![CDATA[Payment Zone]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_3</key>
+      <value><![CDATA[Sort order of display]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_4</key>
+      <value><![CDATA[Set Order Status]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_5</key>
+      <value><![CDATA[Do you want to accept Cash On Delivery payments?]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_6</key>
+      <value><![CDATA[If a zone is selected, only enable this payment method for that zone.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_7</key>
+      <value><![CDATA[Sort order of display. Lowest is displayed first.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cod_admin_8</key>
+      <value><![CDATA[Set the status of orders made with this payment module to this value]]></value>
+      <group>modules-payment</group>
+    </definition>	
+  </definitions>
+</language>

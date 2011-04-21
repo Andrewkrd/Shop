@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_total_title</key>
+      <value><![CDATA[Итого]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_description</key>
+      <value><![CDATA[Итого заказ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_admin_1</key>
+      <value><![CDATA[Отображать Итого]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_admin_2</key>
+      <value><![CDATA[Сортировать в заказе]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_admin_3</key>
+      <value><![CDATA[Вы хотите отображать значение Итого в заказе?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_admin_4</key>
+      <value><![CDATA[Сортировка при отображении в заказе.]]></value>
+      <group>modules-order_total</group>
+    </definition>		
+  </definitions>
+</language>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_table_title</key>
+      <value><![CDATA[Таблица тарифов]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_description</key>
+      <value><![CDATA[Таблица тарифов]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_method</key>
+      <value><![CDATA[быстрая доставка]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_1</key>
+      <value><![CDATA[Включить таблицу тарифов]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_2</key>
+      <value><![CDATA[Таблица доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_3</key>
+      <value><![CDATA[Метод расчета таблицы]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_table_admin_4</key>
+      <value><![CDATA[Наценка за обработку]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_5</key>
+      <value><![CDATA[Налоговый класс]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_6</key>
+      <value><![CDATA[Зоны доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_7</key>
+      <value><![CDATA[Сортировать в списке]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_8</key>
+      <value><![CDATA[Единица веса в модуле]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_9</key>
+      <value><![CDATA[Вы хотите использовать таблицу тарифов для расчета доставки товаров?]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_table_admin_10</key>
+      <value><![CDATA[Стоимость доставки основана на стоимости или весе единиц товаров. Пример: 25:8.50,50:5.50, и т.д.. До 25 будет значение 8.50, от 25 до 50 будет 5.50, и т.д.]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+    <definition>
+      <key>shipping_table_admin_11</key>
+      <value><![CDATA[Стоимость доставки основана на общей стоимости заказа или полном весе единиц товара в заказе.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_table_admin_12</key>
+      <value><![CDATA[Использовать наценку за обработку при использовании этого вида доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_table_admin_13</key>
+      <value><![CDATA[Использовать следующий налоговый класс для этой доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_14</key>
+      <value><![CDATA[Если зона выбрана, то доставка этим методом будет осуществляться только в эту зону.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_table_admin_15</key>
+      <value><![CDATA[Сортировать в списке модулей доставки при проведении заказа.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_table_admin_16</key>
+      <value><![CDATA[Какую единицу веса использует этот модуль доставки?]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+    <definition>
+      <key>shipping_table_admin_17</key>
+      <value><![CDATA[по весу]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_table_admin_18</key>
+      <value><![CDATA[по цене]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+  </definitions>
+</language>

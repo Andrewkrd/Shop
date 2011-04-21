@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /ext/
+Disallow: /images/
+Disallow: /includes/
+Disallow: /templates/

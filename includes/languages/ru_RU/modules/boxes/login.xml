@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>box_login_heading</key>
+      <value><![CDATA[Войти]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>box_registr</key>
+      <value><![CDATA[Регистрация]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>login_forgotten</key>
+      <value><![CDATA[<a href="%s">Забыли пароль?</a>]]></value>
+      <group>modules-boxes</group>
+    </definition>
+  </definitions>
+</language>

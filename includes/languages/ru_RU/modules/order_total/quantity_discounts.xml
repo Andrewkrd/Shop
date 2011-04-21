@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_quantity_discounts_title</key>
+      <value><![CDATA[Скидка]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_description</key>
+      <value><![CDATA[Скидка]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_store_policy</key>
+      <value><![CDATA[Условия для получения скидок в магазине:]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_buy</key>
+      <value><![CDATA[Покупка товаров количеством ≥ ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_spend</key>
+      <value><![CDATA[Покупка товаров на сумму ≥ ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_get</key>
+      <value><![CDATA[ гарантирует Вам ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_items</key>
+      <value><![CDATA[товар]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_category</key>
+      <value><![CDATA[, находящихся в одной категории, ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_manufacturer</key>
+      <value><![CDATA[, произведенных одним производителем, ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_item</key>
+      <value><![CDATA[ (одного вида товара), ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_cart</key>
+      <value><![CDATA[ (любых товаров), ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_ds_category</key>
+      <value><![CDATA[, находящихся в одной категории, ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_ds_item</key>
+      <value><![CDATA[ (одного вида товара), ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_basis_ds_cart</key>
+      <value><![CDATA[ (любых товаров), ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_per_item_off</key>
+      <value><![CDATA[ скидку с каждого товара ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_off</key>
+      <value><![CDATA[ скидку.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_grossed_up</key>
+      <value><![CDATA[Набрать ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_total_discount</key>
+      <value><![CDATA[Общая скидка: ]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_current_discount</key>
+      <value><![CDATA[Все скидки]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_explanation</key>
+      <value><![CDATA[* разъяснение скидки]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_header_quantity</key>
+      <value><![CDATA[Количество]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_header_discount</key>
+      <value><![CDATA[Скидка]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_header_amount_spent</key>
+      <value><![CDATA[Потраченная сумма]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_1</key>
+      <value><![CDATA[Включение скидок]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_2</key>
+      <value><![CDATA[Сортировать в заказе]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_3</key>
+      <value><![CDATA[Вы хотите включить скидки?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_4</key>
+      <value><![CDATA[Сортировка при отображении в заказе.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_5</key>
+      <value><![CDATA[Включить налог]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_6</key>
+      <value><![CDATA[Включить налог в расчет?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_7</key>
+      <value><![CDATA[Пересчитать налог]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_8</key>
+      <value><![CDATA[Пересчитать налог?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_9</key>
+      <value><![CDATA[Дисконтные единицы]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_10</key>
+      <value><![CDATA[Что принять за значение графы "Скидка", которая указана ниже?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_11</key>
+      <value><![CDATA[Основание скидки]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_12</key>
+      <value><![CDATA[Как вычислять количества для получения скидки?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_13</key>
+      <value><![CDATA[Метод расчета]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_14</key>
+      <value><![CDATA[Что принять за значение графы "Уровень", которая указана ниже?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_15</key>
+      <value><![CDATA[Уровень]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_16</key>
+      <value><![CDATA[Укажите сумму или количество товара для достижения скидки.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_17</key>
+      <value><![CDATA[Скидка для уровня]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_quantity_discounts_admin_18</key>
+      <value><![CDATA[Укажите процент или сумму скидки для этого уровня.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+  </definitions>
+</language>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_item_title</key>
+      <value><![CDATA[Доставка в зависимости от количества]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_description</key>
+      <value><![CDATA[Доставка в зависимости от количества]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_method</key>
+      <value><![CDATA[быстрая доставка]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_admin_1</key>
+      <value><![CDATA[Включить доставку в зависимости от количества]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_admin_2</key>
+      <value><![CDATA[Стоимость доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_admin_3</key>
+      <value><![CDATA[Наценка за обработку]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_item_admin_4</key>
+      <value><![CDATA[Налоговый класс]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_admin_5</key>
+      <value><![CDATA[Зоны доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_admin_6</key>
+      <value><![CDATA[Сортировать в списке]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_admin_7</key>
+      <value><![CDATA[Вы хотите использовать доставку, пропорционально зависимую от количества заказанного товара?]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_admin_8</key>
+      <value><![CDATA[Стоимость доставки будет увеличена пропорционально заказанному количеству единиц товара в заказе.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_item_admin_9</key>
+      <value><![CDATA[Использовать наценку за обработку при использовании этого вида доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_item_admin_10</key>
+      <value><![CDATA[Использовать следующий налоговый класс для этой доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+    <definition>
+      <key>shipping_item_admin_11</key>
+      <value><![CDATA[Если зона выбрана, то доставка этим методом будет осуществляться только в эту зону.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_item_admin_12</key>
+      <value><![CDATA[Сортировать в списке модулей доставки при проведении заказа.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+  </definitions>
+</language>

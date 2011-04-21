@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_zones_title</key>
+      <value><![CDATA[Zone Rates]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_description</key>
+      <value><![CDATA[Zone Based Rates]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_method</key>
+      <value><![CDATA[Shipping to]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_invalid_zone</key>
+      <value><![CDATA[No shipping available to the selected country]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_undefined_rate</key>
+      <value><![CDATA[The shipping rate cannot be determined at this time]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_1</key>
+      <value><![CDATA[Enable Zones Method]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_2</key>
+      <value><![CDATA[Tax Class]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_3</key>
+      <value><![CDATA[Sort Order]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_4</key>
+      <value><![CDATA[Do you want to offer zone rate shipping?]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_5</key>
+      <value><![CDATA[Use the following tax class on the shipping fee.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_6</key>
+      <value><![CDATA[Sort order of display.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_7</key>
+      <value><![CDATA[Zone]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_8</key>
+      <value><![CDATA[Countries]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_9</key>
+      <value><![CDATA[Shipping Table]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_10</key>
+      <value><![CDATA[Handling Fee]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_11</key>
+      <value><![CDATA[Module weight Unit]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_12</key>
+      <value><![CDATA[Comma separated list of two character ISO country codes that are part of Zone ]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_13</key>
+      <value><![CDATA[Shipping rates to Zone ]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_16</key>
+      <value><![CDATA[ destinations based on a group of maximum order weights. Example: 3:8.50,7:10.50,... Weights less than or equal to 3 would cost 8.50 for Zone ]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_17</key>
+      <value><![CDATA[ destinations.]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+    <definition>
+      <key>shipping_zones_admin_14</key>
+      <value><![CDATA[Handling Fee for this shipping zone]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_15</key>
+      <value><![CDATA[What unit of weight does this shipping module use?.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+  </definitions>
+</language>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_chronopay_title</key>
+      <value><![CDATA[ChronoPay]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_description</key>
+      <value><![CDATA[ChronoPay]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_method_title</key>
+      <value><![CDATA[Credit Card]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_1</key>
+      <value><![CDATA[Enable ChronoPay Payments]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_2</key>
+      <value><![CDATA[ChronoPay Product ID]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_3</key>
+      <value><![CDATA[MD5 Hash Signature]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_4</key>
+      <value><![CDATA[Transaction Currency]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_5</key>
+      <value><![CDATA[Sort order of display]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_6</key>
+      <value><![CDATA[Payment Zone]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_7</key>
+      <value><![CDATA[Set Order Status]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_8</key>
+      <value><![CDATA[Do you want to accept ChronoPay payments?]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_9</key>
+      <value><![CDATA[The product ID to assign transactions to.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_10</key>
+      <value><![CDATA[Use this value to verify transactions with.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_11</key>
+      <value><![CDATA[The currency to use for credit card transactions]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_12</key>
+      <value><![CDATA[Sort order of display. Lowest is displayed first.]]></value>
+      <group>modules-payment</group>
+    </definition>		
+    <definition>
+      <key>payment_chronopay_admin_13</key>
+      <value><![CDATA[If a zone is selected, only enable this payment method for that zone.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_chronopay_admin_14</key>
+      <value><![CDATA[Set the status of orders made with this payment module to this value]]></value>
+      <group>modules-payment</group>
+    </definition>		
+  </definitions>
+</language>

@@ -1,0 +1,130 @@
+QUERY select startdate, counter from osc_counter
+QUERY update osc_counter set counter = counter+1
+QUERY select specials_id from osc_specials where status = 0 and now() >= start_date and start_date > 0 and now() < expires_date
+QUERY select specials_id from osc_specials where status = 1 and now() >= expires_date and expires_date > 0
+QUERY select * from osc_languages_definitions where languages_id = 2 and content_group = 'index'
+QUERY select b2p.boxes_group, b.code from osc_templates_boxes_to_pages b2p, osc_templates_boxes b, osc_templates t where b2p.templates_id = 1 and b2p.page_specific = 1 and b2p.content_page in ("*", "index/*", "index/index") and b2p.templates_boxes_id = b.id and b.modules_group = 'content' and b2p.templates_id = t.id order by b2p.boxes_group, b2p.sort_order
+QUERY select b2p.boxes_group, b2p.content_page, b.code from osc_templates_boxes_to_pages b2p, osc_templates_boxes b, osc_templates t where b2p.templates_id = 1 and b2p.content_page in ("*", "index/*", "index/index") and b2p.templates_boxes_id = b.id and b.modules_group = 'content' and b2p.templates_id = t.id order by b2p.boxes_group, b2p.sort_order
+QUERY select image ,image_url from osc_slide_images where language_id =2 and status = 1 order by sort_order desc
+QUERY select b2p.boxes_group, b.code from osc_templates_boxes_to_pages b2p, osc_templates_boxes b, osc_templates t where b2p.templates_id = 1 and b2p.page_specific = 1 and b2p.content_page in ("*", "index/*", "index/index") and b2p.templates_boxes_id = b.id and b.modules_group = 'boxes' and b2p.templates_id = t.id order by b2p.boxes_group, b2p.sort_order
+QUERY select b2p.boxes_group, b2p.content_page, b.code from osc_templates_boxes_to_pages b2p, osc_templates_boxes b, osc_templates t where b2p.templates_id = 1 and b2p.content_page in ("*", "index/*", "index/index") and b2p.templates_boxes_id = b.id and b.modules_group = 'boxes' and b2p.templates_id = t.id order by b2p.boxes_group, b2p.sort_order
+QUERY select manufacturers_id as id, manufacturers_name as text from osc_manufacturers order by manufacturers_name
+QUERY select info_id as id , info_name as text from osc_info where language_id = 2 and active = 1 order by sort_order ASC
+QUERY select id, code, title from osc_templates
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 1 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 1 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 1 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 1 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 1 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 1 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 1 and status = 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 2 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 2 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 2 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 2 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 2 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 2 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 2 and status = 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 3 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 3 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 3 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 3 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 3 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 3 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 3 and status = 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 4 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 4 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 4 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 4 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 4 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 4 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 4 and status = 1
+QUERY select p.products_id from osc_products p where p.products_id = 1 and p.products_status = 1 limit 1
+QUERY select p.products_id from osc_products p where p.products_id = 4 and p.products_status = 1 limit 1
+QUERY select p.products_id from osc_products p where p.products_id = 1 and p.products_status = 1 limit 1
+QUERY select p.products_id from osc_products p where p.products_id = 4 and p.products_status = 1 limit 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 1 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 1 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 1 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 1 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 1 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 1 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 1 and status = 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 4 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 4 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 4 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 4 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 4 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 4 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 4 and status = 1
+QUERY select p.products_id, p.products_price, p.products_tax_class_id, pd.products_name, pd.products_keyword, s.specials_new_products_price, i.image from osc_products p left join osc_products_images i on (p.products_id = i.products_id and i.default_flag = 1), osc_products_description pd, osc_specials s where s.status = 1 and s.products_id = p.products_id and p.products_status = 1 and p.products_id = pd.products_id and pd.language_id = 2 order by s.specials_date_added desc limit 10
+QUERY UPDATE osc_configuration SET configuration_title = 'Размер листинга бокса', configuration_description = 'Количество статей, отображаемых в боксе.' WHERE configuration_key = 'BOX_CMS_LIST_SIZE'
+QUERY UPDATE osc_configuration SET configuration_title = 'Размер листинга страницы', configuration_description = 'Количество статей, отображаемых на странице.' WHERE configuration_key = 'MAX_DISPLAY_CMS_ARTICLES'
+QUERY select cms_id as id , cms_name as text from osc_cms where language_id = 2 and active = 1 order by date_added DESC LIMIT 5
+QUERY replace into osc_sessions values ('6hn00oh8qibci1bftomdke0vd0', 1302793541, 'bGFuZ3VhZ2V8czo1OiJydV9SVSI7Y3VycmVuY3l8czozOiJVU0QiO29zQ19TaG9wcGluZ0NhcnRfZGF0YXxhOjE0OntzOjg6ImNvbnRlbnRzIjthOjA6e31zOjE0OiJzdWJfdG90YWxfY29zdCI7aTowO3M6MTA6InRvdGFsX2Nvc3QiO2k6MDtzOjEyOiJ0b3RhbF93ZWlnaHQiO2k6MDtzOjM6InRheCI7aTowO3M6MTA6InRheF9ncm91cHMiO2E6MDp7fXM6MjE6InNoaXBwaW5nX2JveGVzX3dlaWdodCI7aTowO3M6MTQ6InNoaXBwaW5nX2JveGVzIjtpOjA7czoxNjoic2hpcHBpbmdfYWRkcmVzcyI7YToyOntzOjc6InpvbmVfaWQiO3M6NDoiNDAzMSI7czoxMDoiY291bnRyeV9pZCI7czozOiIyMjMiO31zOjE1OiJzaGlwcGluZ19tZXRob2QiO2E6MDp7fXM6MTU6ImJpbGxpbmdfYWRkcmVzcyI7YToyOntzOjc6InpvbmVfaWQiO3M6NDoiNDAzMSI7czoxMDoiY291bnRyeV9pZCI7czozOiIyMjMiO31zOjE0OiJiaWxsaW5nX21ldGhvZCI7YTowOnt9czoxNToic2hpcHBpbmdfcXVvdGVzIjthOjA6e31zOjEyOiJvcmRlcl90b3RhbHMiO2E6MDp7fX1jYXJ0SUR8czo1OiI4MTE2OSI7b3NDX05hdmlnYXRpb25IaXN0b3J5X2RhdGF8YTozOntpOjA7YTo0OntzOjQ6InBhZ2UiO3M6MTI6InByb2R1Y3RzLnBocCI7czo0OiJtb2RlIjtzOjY6Ik5PTlNTTCI7czozOiJnZXQiO2E6MTp7czo1OiJkZWxsMSI7czowOiIiO31zOjQ6InBvc3QiO2E6MDp7fX1pOjE7YTo0OntzOjQ6InBhZ2UiO3M6MTI6ImNoZWNrb3V0LnBocCI7czo0OiJtb2RlIjtzOjY6Ik5PTlNTTCI7czozOiJnZXQiO2E6MDp7fXM6NDoicG9zdCI7YTowOnt9fWk6MjthOjQ6e3M6NDoicGFnZSI7czo5OiJpbmRleC5waHAiO3M6NDoibW9kZSI7czo2OiJOT05TU0wiO3M6MzoiZ2V0IjthOjA6e31zOjQ6InBvc3QiO2E6MDp7fX19b3NDX1JlY2VudGx5VmlzaXRlZF9kYXRhfGE6MTp7czo4OiJwcm9kdWN0cyI7YToyOntpOjA7YToxOntzOjI6ImlkIjtpOjE7fWk6MTthOjE6e3M6MjoiaWQiO2k6NDt9fX10ZW1wbGF0ZXxhOjI6e3M6MjoiaWQiO3M6MToiMSI7czo0OiJjb2RlIjtzOjE0OiJyaWNoZXJfZGVzaWducyI7fW9zQ19OYXZpZ2F0aW9uSGlzdG9yeV9zbmFwc2hvdHxhOjQ6e3M6NDoicGFnZSI7czoxMjoiY2hlY2tvdXQucGhwIjtzOjQ6Im1vZGUiO3M6NjoiTk9OU1NMIjtzOjM6ImdldCI7YToxOntzOjg6InNoaXBwaW5nIjtzOjA6IiI7fXM6NDoicG9zdCI7YTowOnt9fQ==')
+14.04.2011 18:35:41 - /index.php (1.685s)
+QUERY select startdate, counter from osc_counter
+QUERY update osc_counter set counter = counter+1
+QUERY select specials_id from osc_specials where status = 0 and now() >= start_date and start_date > 0 and now() < expires_date
+QUERY select specials_id from osc_specials where status = 1 and now() >= expires_date and expires_date > 0
+QUERY select * from osc_languages_definitions where languages_id = 2 and content_group = 'index'
+QUERY select b2p.boxes_group, b.code from osc_templates_boxes_to_pages b2p, osc_templates_boxes b, osc_templates t where b2p.templates_id = 1 and b2p.page_specific = 1 and b2p.content_page in ("*", "index/*", "index/index") and b2p.templates_boxes_id = b.id and b.modules_group = 'content' and b2p.templates_id = t.id order by b2p.boxes_group, b2p.sort_order
+QUERY select b2p.boxes_group, b2p.content_page, b.code from osc_templates_boxes_to_pages b2p, osc_templates_boxes b, osc_templates t where b2p.templates_id = 1 and b2p.content_page in ("*", "index/*", "index/index") and b2p.templates_boxes_id = b.id and b.modules_group = 'content' and b2p.templates_id = t.id order by b2p.boxes_group, b2p.sort_order
+QUERY select image ,image_url from osc_slide_images where language_id =2 and status = 1 order by sort_order desc
+QUERY select b2p.boxes_group, b.code from osc_templates_boxes_to_pages b2p, osc_templates_boxes b, osc_templates t where b2p.templates_id = 1 and b2p.page_specific = 1 and b2p.content_page in ("*", "index/*", "index/index") and b2p.templates_boxes_id = b.id and b.modules_group = 'boxes' and b2p.templates_id = t.id order by b2p.boxes_group, b2p.sort_order
+QUERY select b2p.boxes_group, b2p.content_page, b.code from osc_templates_boxes_to_pages b2p, osc_templates_boxes b, osc_templates t where b2p.templates_id = 1 and b2p.content_page in ("*", "index/*", "index/index") and b2p.templates_boxes_id = b.id and b.modules_group = 'boxes' and b2p.templates_id = t.id order by b2p.boxes_group, b2p.sort_order
+QUERY select manufacturers_id as id, manufacturers_name as text from osc_manufacturers order by manufacturers_name
+QUERY select info_id as id , info_name as text from osc_info where language_id = 2 and active = 1 order by sort_order ASC
+QUERY select id, code, title from osc_templates
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 1 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 1 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 1 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 1 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 1 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 1 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 1 and status = 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 2 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 2 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 2 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 2 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 2 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 2 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 2 and status = 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 3 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 3 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 3 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 3 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 3 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 3 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 3 and status = 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 4 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 4 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 4 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 4 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 4 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 4 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 4 and status = 1
+QUERY select p.products_id from osc_products p where p.products_id = 1 and p.products_status = 1 limit 1
+QUERY select p.products_id from osc_products p where p.products_id = 4 and p.products_status = 1 limit 1
+QUERY select p.products_id from osc_products p where p.products_id = 1 and p.products_status = 1 limit 1
+QUERY select p.products_id from osc_products p where p.products_id = 4 and p.products_status = 1 limit 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 1 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 1 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 1 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 1 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 1 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 1 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 1 and status = 1
+QUERY select products_id as id, parent_id, products_quantity as quantity, products_price as price, products_model as model, products_tax_class_id as tax_class_id, products_weight as weight, products_weight_class as weight_class_id, products_date_added as date_added, manufacturers_id, has_children from osc_products where products_id = 4 and products_status = 1
+QUERY select products_name as name, products_description as description, products_keyword as keyword, products_tags as tags, products_url as url from osc_products_description where products_id = 4 and language_id = 2
+QUERY select id, image, default_flag from osc_products_images where products_id = 4 order by sort_order
+QUERY select categories_id from osc_products_to_categories where products_id = 4 limit 1
+QUERY select tb.code, pa.value from osc_product_attributes pa, osc_templates_boxes tb where pa.products_id = 4 and pa.languages_id in (0, 2) and pa.id = tb.id
+QUERY select avg(reviews_rating) as rating from osc_reviews where products_id = 4 and languages_id = 2 and reviews_status = 1
+QUERY select specials_new_products_price from osc_specials where products_id = 4 and status = 1
+QUERY select p.products_id, p.products_price, p.products_tax_class_id, pd.products_name, pd.products_keyword, s.specials_new_products_price, i.image from osc_products p left join osc_products_images i on (p.products_id = i.products_id and i.default_flag = 1), osc_products_description pd, osc_specials s where s.status = 1 and s.products_id = p.products_id and p.products_status = 1 and p.products_id = pd.products_id and pd.language_id = 2 order by s.specials_date_added desc limit 10
+QUERY UPDATE osc_configuration SET configuration_title = 'Размер листинга бокса', configuration_description = 'Количество статей, отображаемых в боксе.' WHERE configuration_key = 'BOX_CMS_LIST_SIZE'
+QUERY UPDATE osc_configuration SET configuration_title = 'Размер листинга страницы', configuration_description = 'Количество статей, отображаемых на странице.' WHERE configuration_key = 'MAX_DISPLAY_CMS_ARTICLES'
+QUERY select cms_id as id , cms_name as text from osc_cms where language_id = 2 and active = 1 order by date_added DESC LIMIT 5
+QUERY replace into osc_sessions values ('6hn00oh8qibci1bftomdke0vd0', 1302793549, 'bGFuZ3VhZ2V8czo1OiJydV9SVSI7Y3VycmVuY3l8czozOiJVU0QiO29zQ19TaG9wcGluZ0NhcnRfZGF0YXxhOjE0OntzOjg6ImNvbnRlbnRzIjthOjA6e31zOjE0OiJzdWJfdG90YWxfY29zdCI7aTowO3M6MTA6InRvdGFsX2Nvc3QiO2k6MDtzOjEyOiJ0b3RhbF93ZWlnaHQiO2k6MDtzOjM6InRheCI7aTowO3M6MTA6InRheF9ncm91cHMiO2E6MDp7fXM6MjE6InNoaXBwaW5nX2JveGVzX3dlaWdodCI7aTowO3M6MTQ6InNoaXBwaW5nX2JveGVzIjtpOjA7czoxNjoic2hpcHBpbmdfYWRkcmVzcyI7YToyOntzOjc6InpvbmVfaWQiO3M6NDoiNDAzMSI7czoxMDoiY291bnRyeV9pZCI7czozOiIyMjMiO31zOjE1OiJzaGlwcGluZ19tZXRob2QiO2E6MDp7fXM6MTU6ImJpbGxpbmdfYWRkcmVzcyI7YToyOntzOjc6InpvbmVfaWQiO3M6NDoiNDAzMSI7czoxMDoiY291bnRyeV9pZCI7czozOiIyMjMiO31zOjE0OiJiaWxsaW5nX21ldGhvZCI7YTowOnt9czoxNToic2hpcHBpbmdfcXVvdGVzIjthOjA6e31zOjEyOiJvcmRlcl90b3RhbHMiO2E6MDp7fX1jYXJ0SUR8czo1OiI4MTE2OSI7b3NDX05hdmlnYXRpb25IaXN0b3J5X2RhdGF8YTozOntpOjA7YTo0OntzOjQ6InBhZ2UiO3M6MTI6InByb2R1Y3RzLnBocCI7czo0OiJtb2RlIjtzOjY6Ik5PTlNTTCI7czozOiJnZXQiO2E6MTp7czo1OiJkZWxsMSI7czowOiIiO31zOjQ6InBvc3QiO2E6MDp7fX1pOjE7YTo0OntzOjQ6InBhZ2UiO3M6MTI6ImNoZWNrb3V0LnBocCI7czo0OiJtb2RlIjtzOjY6Ik5PTlNTTCI7czozOiJnZXQiO2E6MDp7fXM6NDoicG9zdCI7YTowOnt9fWk6MjthOjQ6e3M6NDoicGFnZSI7czo5OiJpbmRleC5waHAiO3M6NDoibW9kZSI7czo2OiJOT05TU0wiO3M6MzoiZ2V0IjthOjA6e31zOjQ6InBvc3QiO2E6MDp7fX19b3NDX1JlY2VudGx5VmlzaXRlZF9kYXRhfGE6MTp7czo4OiJwcm9kdWN0cyI7YToyOntpOjA7YToxOntzOjI6ImlkIjtpOjE7fWk6MTthOjE6e3M6MjoiaWQiO2k6NDt9fX10ZW1wbGF0ZXxhOjI6e3M6MjoiaWQiO3M6MToiMSI7czo0OiJjb2RlIjtzOjE0OiJyaWNoZXJfZGVzaWducyI7fW9zQ19OYXZpZ2F0aW9uSGlzdG9yeV9zbmFwc2hvdHxhOjQ6e3M6NDoicGFnZSI7czoxMjoiY2hlY2tvdXQucGhwIjtzOjQ6Im1vZGUiO3M6NjoiTk9OU1NMIjtzOjM6ImdldCI7YToxOntzOjg6InNoaXBwaW5nIjtzOjA6IiI7fXM6NDoicG9zdCI7YTowOnt9fQ==')
+14.04.2011 18:35:49 - / (1.558s)

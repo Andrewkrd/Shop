@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_flat_title</key>
+      <value><![CDATA[Единый тариф на доставку]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_description</key>
+      <value><![CDATA[Единый тариф на доставку]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_method</key>
+      <value><![CDATA[быстрая доставка]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_1</key>
+      <value><![CDATA[Включить единый тариф на доставку]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_2</key>
+      <value><![CDATA[Стоимость доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_3</key>
+      <value><![CDATA[Налоговый класс]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_flat_admin_4</key>
+      <value><![CDATA[Зоны доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_5</key>
+      <value><![CDATA[Сортировать в списке]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_6</key>
+      <value><![CDATA[Вы хотите использовать единый тариф на доставку?]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_7</key>
+      <value><![CDATA[Стоимость доставки для всех заказов, использующих этот метод доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_8</key>
+      <value><![CDATA[Использовать следующий налоговый класс для этой доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_9</key>
+      <value><![CDATA[Если зона выбрана, то доставка этим методом будет осуществляться только в эту зону.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_flat_admin_10</key>
+      <value><![CDATA[Сортировать в списке модулей доставки при проведении заказа.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+  </definitions>
+</language>

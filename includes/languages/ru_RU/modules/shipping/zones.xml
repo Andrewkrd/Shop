@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_zones_title</key>
+      <value><![CDATA[Доставка в тарифную зону]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_description</key>
+      <value><![CDATA[Базовая зональная тарифная ставка]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_method</key>
+      <value><![CDATA[страна с международным кодом ISO 3166-1 -]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_invalid_zone</key>
+      <value><![CDATA[В указанную страну доставка не осуществляется]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_undefined_rate</key>
+      <value><![CDATA[Срок доставки не может быть определен в это время]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_1</key>
+      <value><![CDATA[Включить доставку в тарифную зону]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_2</key>
+      <value><![CDATA[Налоговый класс]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_3</key>
+      <value><![CDATA[Сортировать в списке]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_4</key>
+      <value><![CDATA[Вы хотите использовать доставку в тарифную зону?]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_5</key>
+      <value><![CDATA[Использовать следующий налоговый класс для этой доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_6</key>
+      <value><![CDATA[Сортировать в списке модулей доставки при проведении заказа.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_7</key>
+      <value><![CDATA[Зона]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_8</key>
+      <value><![CDATA[: Страны]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_9</key>
+      <value><![CDATA[: Таблица доставки]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_10</key>
+      <value><![CDATA[: Наценка за обработку]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_11</key>
+      <value><![CDATA[Единица веса в модуле]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_12</key>
+      <value><![CDATA[Запятая разделяет ISO коды стран, которые являются частью зоны ]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_13</key>
+      <value><![CDATA[Тарифные ставки зоны ]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_16</key>
+      <value><![CDATA[ основаны на группе максимальных весов заказа. Пример: 3:8.50,7:10.50,... Веса, меньше или равные 3 будут стоить 8.50 для зоны ]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_zones_admin_17</key>
+      <value><![CDATA[]]></value>
+      <group>modules-shipping</group>
+    </definition>		
+    <definition>
+      <key>shipping_zones_admin_14</key>
+      <value><![CDATA[Использовать наценку за обработку при использовании этого вида доставки.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_zones_admin_15</key>
+      <value><![CDATA[Какую единицу веса использует этот модуль доставки?]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+  </definitions>
+</language>

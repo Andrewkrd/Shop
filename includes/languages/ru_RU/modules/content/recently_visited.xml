@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>recently_visited_title</key>
+      <value><![CDATA[История просмотров]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>recently_visited_products_title</key>
+      <value><![CDATA[Недавно просмотренные товары]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>recently_visited_categories_title</key>
+      <value><![CDATA[Недавно просмотренные категории]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>recently_visited_searches_title</key>
+      <value><![CDATA[Недавно проведенные поиски]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>recently_visited_item_in_category</key>
+      <value><![CDATA[в %s]]></value>
+      <group>modules-content</group>
+    </definition>
+	    <definition>
+      <key>recently_visited_searches_results</key>
+      <value><![CDATA[значений]]></value>
+      <group>modules-content</group>
+    </definition>
+  </definitions>
+</language>

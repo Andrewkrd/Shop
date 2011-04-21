@@ -1,0 +1,11 @@
+Thanks for downloading a freeoscommerce.com template
+
+Installation instructions can be found at: http://freeoscommerce.com/installation/
+
+Browse osCommerce 2.2, osCommerce 3 and CMS Made Simple templates at http://freeoscommerce.com/
+
+
+    Copyright (c) freeoscommerce.com 2009
+
+
+    This file is part of a freeoscommerce.com template.  Please visit http://www.freeoscommerce.com for licensing and other information.

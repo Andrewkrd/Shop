@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_template_info</key>
+      <value><![CDATA[(+ доставка)]]></value>
+      <group>general</group>
+    </definition>
+	<definition>
+      <key>recently_visited_template_info</key>
+      <value><![CDATA[значений]]></value>
+      <group>general</group>
+    </definition>
+  </definitions>
+</language>

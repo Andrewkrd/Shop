@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_flat_title</key>
+      <value><![CDATA[Flat Rate]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_description</key>
+      <value><![CDATA[Flat Rate]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_method</key>
+      <value><![CDATA[Best Way]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_1</key>
+      <value><![CDATA[Enable Flat Shipping]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_2</key>
+      <value><![CDATA[Shipping Cost]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_3</key>
+      <value><![CDATA[Tax Class]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_flat_admin_4</key>
+      <value><![CDATA[Shipping Zone]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_5</key>
+      <value><![CDATA[Sort Order]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_6</key>
+      <value><![CDATA[Do you want to offer flat rate shipping?]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_7</key>
+      <value><![CDATA[The shipping cost for all orders using this shipping method.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_8</key>
+      <value><![CDATA[Use the following tax class on the shipping fee.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_flat_admin_9</key>
+      <value><![CDATA[If a zone is selected, only enable this shipping method for that zone.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+    <definition>
+      <key>shipping_flat_admin_10</key>
+      <value><![CDATA[Sort order of display.]]></value>
+      <group>modules-shipping</group>
+    </definition>	
+  </definitions>
+</language>

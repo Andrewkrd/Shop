@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>box_cms_heading</key>
+      <value><![CDATA[Статьи]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>breadcrumb_cms</key>
+      <value><![CDATA[Статьи]]></value>
+      <group>cms</group>
+    </definition>
+	<definition>
+      <key>cms_heading</key>
+      <value><![CDATA[Статьи]]></value>
+      <group>cms</group>
+    </definition>
+	<definition>
+      <key>cms_box_heading</key>
+      <value><![CDATA[Статьи]]></value>
+      <group>cms</group>
+    </definition>
+    <definition>
+      <key>result_set_number_of_cms</key>
+      <value><![CDATA[Показано (%s - %s) из %s статей]]></value>
+      <group>cms</group>
+    </definition>
+    <definition>
+      <key>cms_text_more</key>
+      <value><![CDATA[...]]></value>
+      <group>cms</group>
+    </definition>
+    <definition>
+      <key>cms_read_text_more</key>
+      <value><![CDATA[подробнее...]]></value>
+      <group>cms</group>
+    </definition>
+    <definition>
+      <key>cms_read_text_more1</key>
+      <value><![CDATA[Размер листинга бокса]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>cms_read_text_more2</key>
+      <value><![CDATA[Количество статей, отображаемых в боксе.]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>cms_read_text_more3</key>
+      <value><![CDATA[Размер листинга страницы]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>cms_read_text_more4</key>
+      <value><![CDATA[Количество статей, отображаемых на странице.]]></value>
+      <group>modules-boxes</group>
+    </definition>	
+  </definitions>
+</language>

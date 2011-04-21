@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>popular_products_title</key>
+      <value><![CDATA[Популярные товары]]></value>
+      <group>modules-content</group>
+    </definition>
+  </definitions>
+</language>

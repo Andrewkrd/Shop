@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_loworderfee_title</key>
+      <value><![CDATA[Low Order Fee]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_description</key>
+      <value><![CDATA[Low Order Fee]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_1</key>
+      <value><![CDATA[Display Low Order Fee]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_2</key>
+      <value><![CDATA[Sort Order]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_3</key>
+      <value><![CDATA[Allow Low Order Fee]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_4</key>
+      <value><![CDATA[Order Fee For Orders Under]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_5</key>
+      <value><![CDATA[Order Fee]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_6</key>
+      <value><![CDATA[Attach Low Order Fee On Orders Made]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_7</key>
+      <value><![CDATA[Tax Class]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_8</key>
+      <value><![CDATA[Do you want to display the low order fee?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_9</key>
+      <value><![CDATA[Sort order of display.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_10</key>
+      <value><![CDATA[Do you want to allow low order fees?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_11</key>
+      <value><![CDATA[Add the low order fee to orders under this amount.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_12</key>
+      <value><![CDATA[Low order fee.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_13</key>
+      <value><![CDATA[Attach low order fee for orders sent to the set destination.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_14</key>
+      <value><![CDATA[Use the following tax class on the low order fee.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_15</key>
+      <value><![CDATA[national]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_16</key>
+      <value><![CDATA[international]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_loworderfee_admin_17</key>
+      <value><![CDATA[both]]></value>
+      <group>modules-order_total</group>
+    </definition>	
+  </definitions>
+</language>

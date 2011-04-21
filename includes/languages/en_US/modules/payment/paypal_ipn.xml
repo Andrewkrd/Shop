@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_paypal_ipn_title</key>
+      <value><![CDATA[PayPal IPN]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_description</key>
+      <value><![CDATA[PayPal IPN]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_method_title</key>
+      <value><![CDATA[PayPal]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_1</key>
+      <value><![CDATA[Enable PayPal IPN Module]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_2</key>
+      <value><![CDATA[PayPal E-Mail Address]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_3</key>
+      <value><![CDATA[API Username]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_4</key>
+      <value><![CDATA[API Password]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_5</key>
+      <value><![CDATA[API Certificate]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_6</key>
+      <value><![CDATA[Enable Encrypted Web Payments]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_7</key>
+      <value><![CDATA[Encrypted Web Payments Private Key (Seller)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_8</key>
+      <value><![CDATA[Encrypted Web Payments Public Certificate (Seller)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_9</key>
+      <value><![CDATA[Encrpyted Web Payments Public Certificate (PayPal)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_10</key>
+      <value><![CDATA[Encrypted Web Payments Public Certificate ID]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_11</key>
+      <value><![CDATA[OpenSSL Location]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_12</key>
+      <value><![CDATA[Secret Key]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_13</key>
+      <value><![CDATA[Transaction Currency]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_14</key>
+      <value><![CDATA[Transaction Server]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_15</key>
+      <value><![CDATA[Sort order of display]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_16</key>
+      <value><![CDATA[Payment Zone]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_17</key>
+      <value><![CDATA[Set Order Status]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_18</key>
+      <value><![CDATA[Do you want to accept PayPal IPN payments?]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_19</key>
+      <value><![CDATA[The seller e-mail address to use for accepting PayPal payments.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_20</key>
+      <value><![CDATA[The username to use for the PayPal Web Services API.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_21</key>
+      <value><![CDATA[The password to use for the PayPal Web Services API.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_22</key>
+      <value><![CDATA[The location of the PayPal API Certificate for the PayPal Web Services API.]]></value>
+      <group>modules-payment</group>
+    </definition>	
+    <definition>
+      <key>payment_paypal_ipn_admin_23</key>
+      <value><![CDATA[Do you want to enable Encrypted Web Payments?]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_24</key>
+      <value><![CDATA[The location of your Private Key to use for signing the data. (*.pem)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_25</key>
+      <value><![CDATA[The location of your Public Certificate to use for signing the data. (*.pem)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_26</key>
+      <value><![CDATA[The location of the PayPal Public Certificate for encrypting the data.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_27</key>
+      <value><![CDATA[The Certificate ID to use from your PayPal Encrypted Payment Settings Profile.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_28</key>
+      <value><![CDATA[The location of the openssl binary file.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_29</key>
+      <value><![CDATA[A secret key to pass to PayPal (primarly used with Encrypted Web Payments).]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_30</key>
+      <value><![CDATA[The currency to use for credit card transactions]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_31</key>
+      <value><![CDATA[The server to perform transactions in.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_32</key>
+      <value><![CDATA[Sort order of display. Lowest is displayed first.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_33</key>
+      <value><![CDATA[If a zone is selected, only enable this payment method for that zone.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_ipn_admin_34</key>
+      <value><![CDATA[Set the status of orders made with this payment module to this value]]></value>
+      <group>modules-payment</group>
+    </definition>		
+  </definitions>
+</language>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_total_title</key>
+      <value><![CDATA[Total]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_description</key>
+      <value><![CDATA[Order Total]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_admin_1</key>
+      <value><![CDATA[Display Total]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_admin_2</key>
+      <value><![CDATA[Sort Order]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_admin_3</key>
+      <value><![CDATA[Do you want to display the total order value?]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_total_admin_4</key>
+      <value><![CDATA[Sort order of display.]]></value>
+      <group>modules-order_total</group>
+    </definition>	
+  </definitions>
+</language>
